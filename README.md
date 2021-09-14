@@ -1,19 +1,20 @@
-# grupo_7_proyectoIntegrador
+# Grupo 7: Proyecto Integrador
 
 
 DESCRIPCION:
 
 ● Una breve descripción de la oferta de productos y/o servicios ofrecidos por su
 sitio. También agregar una breve descripción del público al que apunta el sitio.
+Nuestro proyecto es un e-commerce de artículos de cuero. Encontrarán gran variedad de bolsos y carteras, de tamaños y diseños exclusivos para uso personal o decoración, confeccionados a mano por artesanos especializados. Diseños personalizados de alta calidad para todas las edades.
 
 INTEGRANTES DEL EQUIPO (GRUPO 7):
 
 ● Una breve descripción de los integrantes del equipo.
 
-Londero, Pamela:
-Cossio, Nathaly:
-Della Nave, Esteban:
-Zucolillo, Nelson:
+*Londero, Pamela: Hola!👋 Soy Pame, contadora y docente en Cs. Económicas. Feliz de formar parte de este maravilloso 🌍 IT. En viaje en mi 🚀 al 💫.
+*Cossio, Nathaly:
+*Della Nave, Esteban:
+*Zucolillo, Nelson:
 
 
 GIT HUB URL:
