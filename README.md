@@ -36,4 +36,5 @@ https://www.rickysarkany.com/coleccion/carteras?PS=12&O=orderByReleaseDateDESC&g
 
 https://www.xlshop.com.ar/carteras
 
+https://www.prune.com.ar/
 
