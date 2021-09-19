@@ -16,6 +16,15 @@ INTEGRANTES DEL EQUIPO (GRUPO 7):
 *Della Nave, Esteban:
 *Zucolillo, Nelson:
 
+WIREFRAME:
+Home:
+https://www.figma.com/file/3GE3lpqRh5YVPDpB8OXN8r/G7-wireframe-Home
+
+Detalle de Producto:
+https://www.figma.com/file/X4cbyWZmrylbyp4brF4RJy/Detalle-de-producto
+
+Carrito de Compras:
+https://www.figma.com/file/YhAN1cANKSnUbidZRcHyA3/G7-wireframe-Carrito-de-Compras
 
 GIT HUB URL:
 
