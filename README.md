@@ -19,12 +19,15 @@ INTEGRANTES DEL EQUIPO (GRUPO 7):
 WIREFRAME:
 Home:
 https://www.figma.com/file/3GE3lpqRh5YVPDpB8OXN8r/G7-wireframe-Home
-
 Detalle de Producto:
 https://www.figma.com/file/X4cbyWZmrylbyp4brF4RJy/Detalle-de-producto
-
+https://www.figma.com/file/3GE3lpqRh5YVPDpB8OXN8r/G7---wireframe%3A-Home?node-id=13%3A4
 Carrito de Compras:
 https://www.figma.com/file/YhAN1cANKSnUbidZRcHyA3/G7-wireframe-Carrito-de-Compras
+Formulario de registro:
+https://www.figma.com/file/YhAN1cANKSnUbidZRcHyA3/G7-wireframe-Carrito-de-Compras?node-id=122%3A5
+Formulario de login:
+https://www.figma.com/file/3GE3lpqRh5YVPDpB8OXN8r/G7---wireframe%3A-Home?node-id=15%3A96
 
 GIT HUB URL:
 
