@@ -11,9 +11,14 @@ INTEGRANTES DEL EQUIPO (GRUPO 7):
 
 ● Una breve descripción de los integrantes del equipo.
 
-*Londero, Pamela: Hola!👋 Soy Pame, contadora y docente en Cs. Económicas. Feliz de formar parte de este maravilloso 🌍 IT. En viaje en mi 🚀 al 💫.
+*Londero, Pamela: 
+Hola!👋 Soy Pame, contadora y docente en Cs. Económicas. Feliz de formar parte de este maravilloso 🌍 IT. En viaje en mi 🚀 al 💫.
+
 *Cossio, Nathaly:
-*Della Nave, Esteban: Soy Esteban, Ingeniero, musico, dibujante y estoy muy feliz de compartir este grupo y este bootcamp en DH.
+
+*Della Nave, Esteban:
+Soy Esteban, Ingeniero, musico, dibujante y estoy muy feliz de compartir este grupo y este bootcamp en DH.
+
 *Zucolillo, Nelson:
 
 WIREFRAME:
@@ -23,6 +28,7 @@ https://www.figma.com/file/3GE3lpqRh5YVPDpB8OXN8r/G7-wireframe-Home
 
 Detalle de Producto:
 https://www.figma.com/file/X4cbyWZmrylbyp4brF4RJy/Detalle-de-producto
+
 https://www.figma.com/file/3GE3lpqRh5YVPDpB8OXN8r/G7---wireframe%3A-Home?node-id=13%3A4
 
 Carrito de Compras:
@@ -39,7 +45,7 @@ GIT HUB URL: https://github.com/estebandella/grupo_7_proyectoIntegrador.git
 
 TRELLO (TABLERO KAMBAN):  https://trello.com/b/CUomQUch/grupo-7-dh
 
-SITIOS DE REFERENCIA:
+SITIOS DE REFERENCIAS:
 
 https://juanitajo.com/13-carteras?page=2
 
@@ -51,6 +57,6 @@ https://www.prune.com.ar/
 
 https://tiendasantaclara.com/
 
-Estas páginas porque representan productos tope de gama dentro del mercado de carteras par mujeres.
-También su diseño elegante y amigable para el usuario nos pareció que combinaban estos rasgos muy bien.
+Se seleccionaron estas páginas porque representan productos tope de gama dentro del mercado de carteras para mujeres.
+También su diseño elegante y amigable desde el punto de vista del usuario nos pareció que combinaban estos rasgos con muy buen criterio.
 
