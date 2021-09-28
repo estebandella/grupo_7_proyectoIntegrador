@@ -20,6 +20,7 @@ Una breve descripción de los integrantes del equipo.
 >Soy Esteban, Ingeniero, musico, dibujante y estoy muy feliz de compartir este grupo y este bootcamp en DH.
 
 >**Zucolillo, Nelson**:
+>Soy programador hace unos anios, me gusta ampliar mis conocimientos.
 
 #### WIREFRAME:
 
