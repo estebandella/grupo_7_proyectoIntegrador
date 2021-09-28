@@ -14,7 +14,7 @@ Una breve descripción de los integrantes del equipo.
 >**Londero, Pamela**: 
 >Hola!👋 Soy Pame, contadora y docente en Cs. Económicas. Feliz de formar parte de este maravilloso 🌍 IT. En viaje en mi 🚀 al 💫.
 
->**Cossio, Nathaly**:
+>**Cossio, Nathaly**: Hola, soy Nathaly, licenciada en sistemas de informaciòn de las organizaciones en la facuntad de Cs. Ecònomicas. Apasionada por seguir aprendiendo este marilloso mundo de la programacion.
 
 >**Della Nave, Esteban**:
 >Soy Esteban, Ingeniero, musico, dibujante y estoy muy feliz de compartir este grupo y este bootcamp en DH.
