@@ -1,27 +1,27 @@
 # Grupo 7: Proyecto Integrador
 
 
-DESCRIPCION:
+#### DESCRIPCION:
 
 Nuestro proyecto es un e-commerce de artículos de cuero. Encontrarán gran variedad de bolsos y carteras, de tamaños y diseños exclusivos para uso personal o decoración, confeccionados a mano por artesanos especializados. Diseños personalizados de alta calidad para todas las edades.
 
 Destinado a mujeres de 18 a 60 anos que saben valorar el diseno y materiales de alta calidad
 
-INTEGRANTES DEL EQUIPO (GRUPO 7):
+#### INTEGRANTES DEL EQUIPO (GRUPO 7):
 
-● Una breve descripción de los integrantes del equipo.
+Una breve descripción de los integrantes del equipo.
 
-*Londero, Pamela: 
-Hola!👋 Soy Pame, contadora y docente en Cs. Económicas. Feliz de formar parte de este maravilloso 🌍 IT. En viaje en mi 🚀 al 💫.
+>**Londero, Pamela**: 
+>Hola!👋 Soy Pame, contadora y docente en Cs. Económicas. Feliz de formar parte de este maravilloso 🌍 IT. En viaje en mi 🚀 al 💫.
 
-*Cossio, Nathaly:
+>**Cossio, Nathaly**:
 
-*Della Nave, Esteban:
-Soy Esteban, Ingeniero, musico, dibujante y estoy muy feliz de compartir este grupo y este bootcamp en DH.
+>**Della Nave, Esteban**:
+>Soy Esteban, Ingeniero, musico, dibujante y estoy muy feliz de compartir este grupo y este bootcamp en DH.
 
-*Zucolillo, Nelson:
+>**Zucolillo, Nelson**:
 
-WIREFRAME:
+#### WIREFRAME:
 
 Home:
 https://www.figma.com/file/3GE3lpqRh5YVPDpB8OXN8r/G7-wireframe-Home
@@ -41,15 +41,15 @@ Formulario de login:
 https://www.figma.com/file/3GE3lpqRh5YVPDpB8OXN8r/G7---wireframe%3A-Home?node-id=15%3A96
 
 
-GIT HUB URL: https://github.com/estebandella/grupo_7_proyectoIntegrador.git
+##### GIT HUB URL: https://github.com/estebandella/grupo_7_proyectoIntegrador.git
 
-TRELLO (TABLERO KAMBAN):  https://trello.com/b/CUomQUch/grupo-7-dh
+##### TRELLO (TABLERO KAMBAN):  https://trello.com/b/CUomQUch/grupo-7-dh
 
-SITIOS DE REFERENCIAS:
+#### SITIOS DE REFERENCIAS:
 
-https://juanitajo.com/13-carteras?page=2
+https://juanitajo.com/
 
-https://www.rickysarkany.com/coleccion/carteras?PS=12&O=orderByReleaseDateDESC&gclid=CjwKCAjw7fuJBhBdEiwA2lLMYYpJh1hE1nOtDL9-bAQMF5N9RyG5PJ6NhR5G3-qr36iJf6AjpHTc-xoCXRkQAvD_BwE
+https://www.rickysarkany.com/coleccion/carteras?PS=12&O=orderByReleaseDateDESC
 
 https://www.xlshop.com.ar/carteras
 
