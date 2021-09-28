@@ -60,4 +60,5 @@ https://tiendasantaclara.com/
 
 Se seleccionaron estas páginas porque representan productos tope de gama dentro del mercado de carteras para mujeres.
 También su diseño elegante y amigable desde el punto de vista del usuario nos pareció que combinaban estos rasgos con muy buen criterio.
+De cada una de ellas pudimos obtener estilos para diseñar nuestros Wireframe, como página de inicio, carrito de compras, formularios y más.
 
