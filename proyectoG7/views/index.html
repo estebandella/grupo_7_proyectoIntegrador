@@ -1,60 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <!-- viewport: Para que se adapte a la resolucion del celular -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer ducumento en HTML</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Gruupo 7, Catalina e commers de Carteras</title>
+
+    <!-- FUENTES PARA EL TEXTO -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- FUETE PARA ICONOS -->
+    <script src="https://kit.fontawesome.com/e0f89e011a.js" crossorigin="anonymous"></script>
+
+    <!-- ESTILOS -->
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/stylehome.css">
 </head>
 
 
-<header>
-    <div class="header-top">
-        <h2 class="header-top-texto">
+<header class="header-completo">
+
+    <!-- BARRA SUPERIOR FIJA NEGRA -->
+    <div class="header-barraSupFija">
+        <h2 class="header-barraTop-texto">
             ENVÍO GRATIS DESDE $20.000 | ENVIOS EN EL DÍA PARA CABA
         </h2>
     </div>
-    <from class="header-buscador">
+
+    <!-- MENU LOGO BUCADOR CARRITO -->
+    <div class="header-menu-busca-carrito">
         <i class="fas fa-bars"></i>
-        <i class="fas fa-search"></i>
-        <i class="fas fa-shopping-bag"></i>
-    </from>
+        <h1 class="marca">MILUZ</h1>
+        <div class="header-busca-carrito">
+            <i class="fas fa-search"></i>
+            <h2>|</h2>
+            <i class="fas fa-shopping-bag"></i>
+        </div>
+    </div>
+
+    <!-- TITULO DE SECCION -->
+    <div class="header-titulo">
+        <h1>Carteras</h1>
+        <h5>summer</h5>
+    </div>
 </header>
 
-<body> 
+<body>
+    <!-- FILTRO -->
+    <section class="filtro">
+        <div class="filtro-ordenar-bloque">
+            <select class="filtro-ordenar" name="Ordenar por">
+                <option value="#/"> Menor valor </option>
+                <option value="#/"> Mayor valor </option>
+                <option value="#/"> Tendencia </option>
+                <option value="#/"> Mas vendido </option>
+            </select>
+        </div>
+
+        <p>Filtrar</p>
+        <div class="lineaFilter"></div>
+
+        <div class="filtro-mat-cat-color">
+            <select class="filtro-material" name="Material">
+                <option value="#/" selected> Material </option>
+                <option value="#/"> Cuero </option>
+                <option value="#/"> Tela </option>
+                <option value="#/"> Goretex </option>
+            </select>
+
+            <select class="filtro-categoria" name="Categoria">
+                <option value="#/" selected> Categoria </option>
+                <option value="#/"> Deporte </option>
+                <option value="#/"> Montaña </option>
+                <option value="#/"> Ciudad </option>
+                <option value="#/"> Noche </option>
+                <option value="#/"> Oficina </option>
+            </select>
+
+            <select class="filtro-color" name="Color">
+                <option value="#/" selected> Color </option>
+                <option value="#/"> Rojo </option>
+                <option value="#/"> Verde </option>
+                <option value="#/"> Azul </option>
+                <option value="#/"> Gris </option>
+                <option value="#/"> Negro </option>
+                <option value="#/"> Amarillo </option>
+                <option value="#/"> Violeta </option>
+            </select>
+        </div>
+
+    </section>
+
+
+    <!-- ARTICULOS -->
+
     <section class="article-list">
         <article>
-            <img src="img/HTPARTY-AZOR.jpg">
+            <img src="img/HTPARTY-AZOR.jpg" width="200px">
             <div>
                 <p class="articulo-titulo">Cartera Char </p>
                 <p class="articulo-precio">$41.500 </p>
                 <p class="articulo-cuotas">12 cuotas de $3.458 </p>
             </div>
-            <p class="articulo-colores">
-                <i class="fas fa-circle"></i>
-                <i class="far fa-circle"></i>
-            </p>
+            <div class="articulo-colores">
+                <div class="circulo-azul"><i class="fas fa-circle"></i></div>
+                <div class="circulo-amarillo"><i class="fas fa-circle"></i></div>
+            </div>
+        </article>
 
+        <article>
+            <img src="img/4YTTRIXIT-OVNG-0IMG_1135.rew.jpg" width="200px">
+            <div>
+                <p class="articulo-titulo">Cartera Char </p>
+                <p class="articulo-precio">$41.500 </p>
+                <p class="articulo-cuotas">12 cuotas de $3.458 </p>
+            </div>
+            <div class="articulo-colores">
+                <div class="circulo-gris"><i class="fas fa-circle"></i></div>
+                <div class="circulo-rojo"><i class="fas fa-circle"></i></div>
+                <div class="circulo-verde"><i class="fas fa-circle"></i></div>
+                <div class="circulo-naranja"><i class="fas fa-circle"></i></div>
+                <div class="circulo-negro"><i class="fas fa-circle"></i></div>
+                <div class="circulo-violeta"><i class="fas fa-circle"></i></div>
+            </div>
+        </article>
+
+        <article>
+            <img src="img/4YTTRIXIT-OVNGIMG_1137rew.jpg" width="200px">
+            <div>
+                <p class="articulo-titulo">Cartera Char </p>
+                <p class="articulo-precio">$41.500 </p>
+                <p class="articulo-cuotas">12 cuotas de $3.458 </p>
+            </div>
+            <div class="articulo-colores">
+                <div class="circulo-gris"><i class="fas fa-circle"></i></div>
+            </div>
+        </article>
+
+        <article>
+            <img src="img/HCHOOK-NGNI-IMG_0744rew.jpg" width="200px">
+            <div>
+                <p class="articulo-titulo">Cartera Char </p>
+                <p class="articulo-precio">$41.500 </p>
+                <p class="articulo-cuotas">12 cuotas de $3.458 </p>
+            </div>
+            <div class="articulo-colores">
+                <div class="circulo-gris"><i class="fas fa-circle"></i></div>
+                <div class="circulo-naranja"><i class="fas fa-circle"></i></div>
+            </div>
+        </article>
+
+        <article>
+            <img src="img/HKCHAR-UVNI.jpg" width="200px">
+            <div>
+                <p class="articulo-titulo">Cartera Char </p>
+                <p class="articulo-precio">$41.500 </p>
+                <p class="articulo-cuotas">12 cuotas de $3.458 </p>
+            </div>
+            <div class="articulo-colores">
+                <div class="circulo-violeta"><i class="fas fa-circle"></i></div>
+                <div class="circulo-amarillo"><i class="fas fa-circle"></i></div>
+                <div class="circulo-negro"><i class="fas fa-circle"></i></div>
+            </div>
         </article>
     </section>
 
+
+    <!-- SECCION PARA SUSCRIBIRCE -->
+
+    <form class="suscribete">
+        <!-- TITULO DE SECCION -->
+        <div class="suscribete-titulo">
+            <h1>Suscribete a nuestro newsletter</h1>
+        </div>
+        <input type="email" id="mail" name="emaiUsuario" placeholder="ingresa tu e-mail" required minlength="3"
+            maxlength="8">
+    </form>
 </body>
 
 <footer>
-    <p>Todos los derechos reservados</p>
-    <nav>
-       <ul><a href="#">Términos y condiciones</a></ul>
-       <ul><a href="#">Mapa de sitio</a></ul>
-       <ul><a href="#">Información legal</a></ul>
-    </nav>
- </footer>
-</html>
+    <div class="footerStart">
+        <div class="lineaFooter"></div>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <div class="lineaFooter"></div>
+    </div>
 
+    <p>© Miluz © 2020 Todos los Derechos Reservados</p>
+</footer>
+
+</html>

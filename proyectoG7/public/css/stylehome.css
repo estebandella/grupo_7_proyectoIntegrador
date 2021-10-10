@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header-completo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header-barraSupFija {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #050505;
+    color: #fff;
+    text-align: center;
+    /* centra el texto en la horizontal */
+    align-items: center;
+    /* centra el texto el a vertical */
+    font-size: 8px;
+    text-align: center;
+}
+
+.header-barraTop-texto {
+    align-items: center;
+}
+
+.header-menu-busca-carrito {
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+    font-size: 30px;
+    text-align: center;
+    /* centra el texto en la horizontal */
+    align-items: center;
+    /* centra el texto el a vertical */
+}
+
+.marca {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-busca-carrito {
+    display: flex;
+    align-items: center;
+}
+
+.header-titulo {
+    display: block;
+    justify-content: center;
+    background-color: #FF1493;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    /* centra el texto en la horizontal */
+    align-items: center;
+    /* centra el texto el a vertical */
+    padding: 30px 0px;
+    font-size: 20px;
+}
+
+.header-titulo h1 {
+    margin: 0px;
+}
+
+/* FILTROS *************************  */
+
+.filtro {
+    display: block;
+    margin: 20px 20px;
+    color:#666
+}
+.filtro-ordenar-bloque {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filtro select{
+    width: 100px;
+    height: 30px;
+    color: #666;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border: solid 1px grey;
+    border-radius: 15px;
+}
+
+.lineaFilter {
+    background-color: #ebebeb;
+    padding: 1px 0px;
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.filtro-mat-cat-color {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ARICULOS *************************  */
+
+.article-list {
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.article-list img {
+    margin: 20px 0px 5px 0px;
+    width: 200px;
+    display: flex;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* COLORES DEL ARTICULO */
+
+.articulo-colores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fas.fa-circle {
+    display: flex;
+    font-size: 18px;
+    border: solid 1px grey;
+    border-radius: 23px;
+    color: black;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.circulo-rojo .fas.fa-circle {
+    color: red;
+}
+
+.circulo-amarillo .fas.fa-circle {
+    color: yellow;
+}
+
+.circulo-verde .fas.fa-circle {
+    color: green;
+}
+
+.circulo-gris .fas.fa-circle {
+    color: grey;
+}
+
+.circulo-azul .fas.fa-circle {
+    color: blue;
+}
+
+.circulo-naranja .fas.fa-circle {
+    color: orange;
+}
+
+.circulo-negro .fas.fa-circle {
+    color: black;
+}
+
+.circulo-violeta .fas.fa-circle {
+    color: violet;
+}
+
+/* SECCION PARA SUSCRIBIRCE *************************  */
+
+.suscribete {
+    display: block;
+    justify-content: center;
+    background-color: #ebebeb;
+    color: black;
+    width: 100%;
+    text-align: center;
+    /* centra el texto en la horizontal */
+    align-items: center;
+    /* centra el texto el a vertical */
+    padding: 10px 0px;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.suscribete h1 {
+    margin: 5px 5px;
+}
+
+.suscribete input {
+    width: 70%;
+    height: 40px;
+    padding: 10px 5px;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* FOOTER *************************  */
+
+.lineaFooter {
+    background-color: #ebebeb;
+    ;
+    padding: 1px 0px;
+    margin: 20px 0px;
+    width: 90%;
+}
+
+.footerStart {
+    display: flex;
+    align-items: center;
+}
+
+.footerStart i {
+    margin: 0px 5px 0px 5px;
+    color: #050505;
+    font-size: 18px;
+}
+
+footer {
+    margin: 0px 0px 20px 0px;
+}
+
+/* fromatos recomendados por playgraund
+576
+768
+992
+1200
+*/
