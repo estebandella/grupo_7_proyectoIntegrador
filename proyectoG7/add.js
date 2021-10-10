@@ -27,8 +27,8 @@ app.use(express.static(publicPath));
 
 //************************************************
 
-app.get('/', (req,res) => {
-    const archivo = path.join(__dirname,'/views/home.html');
+app.get('/home', (req,res) => {
+    const archivo = path.join(__dirname,'/views/index.html');
     res.sendFile(archivo);//via un arhcivo al navegador
 });
 
