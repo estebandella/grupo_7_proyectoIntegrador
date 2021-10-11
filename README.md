@@ -32,6 +32,15 @@ https://www.figma.com/file/X4cbyWZmrylbyp4brF4RJy/Detalle-de-producto
 
 https://www.figma.com/file/3GE3lpqRh5YVPDpB8OXN8r/G7---wireframe%3A-Home?node-id=13%3A4
 
+
+SPRINT 2
+
+Restrospectiva, Metodo Estrella:
+
+https://docs.google.com/presentation/d/1zrk9PIcjxDw4x1SQRy8lC5vXnV2JTMR7p6mjDJaB7zc/edit?usp=sharing
+
+
+
 Carrito de Compras:
 https://www.figma.com/file/YhAN1cANKSnUbidZRcHyA3/G7-wireframe-Carrito-de-Compras
 
