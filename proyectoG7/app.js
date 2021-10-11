@@ -27,8 +27,14 @@ app.use(express.static(publicPath));
 
 //************************************************
 
+// PAGINA HOME
 app.get('/home', (req,res) => {
     const archivo = path.join(__dirname,'/views/index.html');
     res.sendFile(archivo);//via un arhcivo al navegador
 });
 
+// PAGINA DETALLE DE PRODUCTO
+app.get('/product', (req,res) => {
+    const archivo = path.join(__dirname,'/views/productDetail.html');
+    res.sendFile(archivo);//via un arhcivo al navegador
+});
