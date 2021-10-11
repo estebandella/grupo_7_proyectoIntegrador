@@ -71,3 +71,9 @@ Se seleccionaron estas páginas porque representan productos tope de gama dentro
 También su diseño elegante y amigable desde el punto de vista del usuario nos pareció que combinaban estos rasgos con muy buen criterio.
 De cada una de ellas pudimos obtener estilos para diseñar nuestros Wireframe, como página de inicio, carrito de compras, formularios y más.
 
+SPRINT 2:
+
+Restrospectiva:
+
+https://docs.google.com/presentation/d/1zrk9PIcjxDw4x1SQRy8lC5vXnV2JTMR7p6mjDJaB7zc/edit?usp=sharing
+
