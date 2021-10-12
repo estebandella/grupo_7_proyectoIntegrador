@@ -38,3 +38,9 @@ app.get('/product', (req,res) => {
     const archivo = path.join(__dirname,'/views/productDetail.html');
     res.sendFile(archivo);//via un arhcivo al navegador
 });
+
+// PAGINA DE LOGIN
+app.get('/login', (req,res) => {
+    const archivo = path.join(__dirname,'/views/login.html');
+    res.sendFile(archivo);
+});
