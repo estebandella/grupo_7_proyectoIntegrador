@@ -1,7 +1,7 @@
 //Desde Terminal
 //npm init -y
 //npm install express --save
-//npm instal -g nodemon
+//npm install -g nodemon
 
 //Requerimos el Moudlo Express
 const express = require('express');
@@ -48,5 +48,11 @@ app.get('/login', (req,res) => {
 // PAGINA DE CARRITO
 app.get('/shopping', (req,res) => {
     const archivo = path.join(__dirname,'/views/shoppingCart.html');
+    res.sendFile(archivo);
+});
+
+// PAGINA DE REGISTRO
+app.get('/register', (req,res) => {
+    const archivo = path.join(__dirname,'/views/register.html');
     res.sendFile(archivo);
 });
