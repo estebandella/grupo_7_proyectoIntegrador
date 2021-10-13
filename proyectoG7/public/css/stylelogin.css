@@ -205,3 +205,41 @@ footer {
     margin: 0px 0px 20px 0px;
     height: 50px;
 }
+
+/* REGISTER *************************  */
+.register-style {
+    display: block;
+    width: 50%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #3f3f44;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #cbcbd2;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.register-label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.login-panel p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.register-label label {
+    margin: 10px;
+}
+
+.cancela-register {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+}
