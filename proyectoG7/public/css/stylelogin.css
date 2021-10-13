@@ -52,11 +52,18 @@ body {
 .marca {
     font-size: 25px;
     font-weight: bold;
+    color: #666;
 }
+
 
 .header-busca-carrito {
     display: flex;
     align-items: center;
+}
+
+.header-busca-carrito i {
+    padding: 0px 10px;
+    color: #666
 }
 
 .header-titulo {

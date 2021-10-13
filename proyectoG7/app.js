@@ -50,3 +50,9 @@ app.get('/register', (req,res) => {
     const archivo = path.join(__dirname,'/views/register.html');
     res.sendFile(archivo);
 });
+
+// PAGINA DE CARRITO DE COMPRAS
+app.get('/carrito', (req,res) => {
+    const archivo = path.join(__dirname,'/views/productCart.html');
+    res.sendFile(archivo);
+});
