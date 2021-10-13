@@ -53,6 +53,6 @@ app.get('/register', (req,res) => {
 
 // PAGINA DE CARRITO DE COMPRAS
 app.get('/carrito', (req,res) => {
-    const archivo = path.join(__dirname,'/views/productCart.html');
+    const archivo = path.join(__dirname,'/views/shoppingCart.html');
     res.sendFile(archivo);
 });

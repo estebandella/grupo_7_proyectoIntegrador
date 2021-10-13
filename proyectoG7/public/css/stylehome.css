@@ -355,9 +355,17 @@ footer {
     margin: 0px 20px;
     height: 100%;
 }
-/* fromatos recomendados por playgraund
-576
-768
-992
-1200
-*/
+
+
+/* CELULARES */
+@media (min-width:361px) {
+}
+
+/* TABLET */
+@media (min-width:768px) {
+}
+
+/* NOTEBOOK */
+@media (min-width:1280px) {
+}
+
