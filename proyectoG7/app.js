@@ -44,3 +44,9 @@ app.get('/login', (req,res) => {
     const archivo = path.join(__dirname,'/views/login.html');
     res.sendFile(archivo);
 });
+
+// PAGINA DE CARRITO
+app.get('/shopping', (req,res) => {
+    const archivo = path.join(__dirname,'/views/shoppingCart.html');
+    res.sendFile(archivo);
+});
