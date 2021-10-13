@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header-completo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header-barraSupFija {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #050505;
+    color: #fff;
+    text-align: center;
+    /* centra el texto en la horizontal */
+    align-items: center;
+    /* centra el texto el a vertical */
+    font-size: 8px;
+    text-align: center;
+}
+
+.header-barraTop-texto {
+    align-items: center;
+}
+
+.header-menu-busca-carrito {
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+    font-size: 30px;
+    text-align: center;
+    /* centra el texto en la horizontal */
+    align-items: center;
+    /* centra el texto el a vertical */
+}
+
+.marca {
+    font-size: 25px;
+    font-weight: bold;
+    color: #666;
+}
+
+.header-busca-carrito {
+    display: flex;
+    align-items: center;
+}
+
+.header-busca-carrito i {
+    padding: 0px 10px;
+    color: #666
+}
+
+.header-titulo {
+    display: block;
+    justify-content: center;
+    background-color: #FF1493;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    /* centra el texto en la horizontal */
+    align-items: center;
+    /* centra el texto el a vertical */
+    padding: 30px 0px;
+    font-size: 20px;
+}
+
+.header-titulo h1 {
+    margin: 0px;
+}
+
+/* FILTROS *************************  */
+
+.filtro {
+    display: block;
+    margin: 20px 20px;
+    color: #666
+}
+
+.filtro-ordenar-bloque {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filtro select {
+    width: 100px;
+    height: 30px;
+    color: #666;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border: solid 1px grey;
+    border-radius: 15px;
+}
+
+.lineaFilter {
+    background-color: #ebebeb;
+    padding: 1px 0px;
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.filtro-mat-cat-color {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.lineaFooter {
+    background-color: #ebebeb;
+    padding: 1px 0px;
+    margin: 20px 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.footerStart {
+    display: flex;
+    align-items: center;
+}
+
+.footerStart i {
+    margin: 0px 5px 0px 5px;
+    color: #050505;
+    font-size: 18px;
+}
+
+footer {
+    margin: 20px 0px 20px 0px;
+    height: 50px;
+}
+
+
+/*  PAGINA SHOPPING CART ******************************************************* */
+
+.main-producto {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    background-color: hsl(0, 73%, 97%);
+}
+
+.items{
+
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.detalle {
+
+    width: 800px;
+    padding: 20px 0px 30px 0px;
+    border: solid 1px rgb(241, 241, 241);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    
+}
+
+.resumen {
+    width: 300px;
+    padding: 20px 0px 30px 0px;
+    border: solid 1px rgb(241, 241, 241);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    
+}
+
+.lineaFooter {
+    margin: 10px 10px;
+}
+
+
+.comprarBoton {
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;*/
+    font-size: 16px;
+    width: 90%;
+    height: 40px;
+    color: #fff;
+    background-color: #050505;
+    padding: 8px 5px;
+    margin: 10px 10px;
+    border: solid 1px grey;
+    border-radius: 20px;
+}
+
+.comprar-detalle {
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+p {
+    padding: 5px 5px 5px 20px;
+    text-align: left;
+}
+
+
+.total-detalle {
+    padding: 5px 5px 5px 20px;
+    text-align: left;
+}
+.total {
+    padding: 5px 5px 5px 20px;
+    text-align: left;
+}
+
+/*  FOOTER ******************************************************* */
+.opcionesCompra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ebebeb;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.footer-pie {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-pie i {
+    color: #03264C;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+
+.footer-pie p {
+    width: 100px;
+    text-align: center;
+}
+
+.opcionesBarra {
+    background-color: #666;;
+    padding: 20px 1px;
+    margin: 0px 20px;
+    height: 100%;
+}
+/* fromatos recomendados por playgraund
+576
+768
+992
+1200
+*/

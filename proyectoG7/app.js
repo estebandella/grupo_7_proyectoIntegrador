@@ -45,6 +45,12 @@ app.get('/login', (req,res) => {
     res.sendFile(archivo);
 });
 
+// PAGINA DE CARRITO
+app.get('/shopping', (req,res) => {
+    const archivo = path.join(__dirname,'/views/shoppingCart.html');
+    res.sendFile(archivo);
+});
+
 // PAGINA DE REGISTRO
 app.get('/register', (req,res) => {
     const archivo = path.join(__dirname,'/views/register.html');
