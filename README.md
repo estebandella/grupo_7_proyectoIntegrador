@@ -92,3 +92,11 @@ Ver el archivo "retro.md" en el repositorio GitHub.
 Adicionalmente dejamos el link del tablero estrella usado por el grupo,
 https://docs.google.com/presentation/d/1zrk9PIcjxDw4x1SQRy8lC5vXnV2JTMR7p6mjDJaB7zc/edit?usp=sharing
 
+##### SPRINT 3
+
+Grupo de WHATSAPP:
+https://chat.whatsapp.com/GqFkW96qWux2bGSzjE8I9u
+
+
+
+
