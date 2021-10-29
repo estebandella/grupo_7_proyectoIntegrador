@@ -4,34 +4,11 @@
 <!--EL SEGUNDO PARAMETRO ES UN OBJETO, CON UNA PROPIEDAD POR CADA VARIABLE (QEU VOY A USAR DENTRO DEL EJS)-->
 <%- include('./partials/head', {titulo:'Register', stylesFile:'stylehome.css'}) %>
 
-<header class="header-completo">
-
-    <!-- BARRA SUPERIOR FIJA NEGRA -->
-    <div class="header-barraSupFija">
-        <h2 class="header-barraTop-texto">
-            ENVÍO GRATIS DESDE $20.000 | ENVIOS EN EL DÍA PARA CABA
-        </h2>
-    </div>
-
-    <!-- MENU LOGO BUCADOR CARRITO -->
-    <div class="header-menu-busca-carrito">
-        <i class="fas fa-bars"></i>
-        <a href="/"><i class="fas fa-shopping-bag"></i></a>
-        <div class="header-busca-carrito">
-            <i class="fas fa-search"></i>
-            <a href="/login"><i class="far fa-user"></i> </a>
-            <h2>|</h2>
-            <a href="/shoppingCart"><i class="fas fa-shopping-bag"></i></a>
-        </div>
-    </div>
-
-    <!-- TITULO DE SECCION -->
-    <div class="header-titulo">
-        <h1>Carteras</h1>
-        <h5>summer</h5>
-    </div>
-</header>
 <body>
+
+    <!-- Header -->
+    <%- include('./partials/header') %>
+    
     <main class="login-container">
         <div class="login-content">
             <div class="login-panel">
@@ -54,16 +31,8 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="footerStart">
-            <div class="lineaFooter"></div>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-            <div class="lineaFooter"></div>
-        </div>
     
-        <p>© Miluz © 2020 Todos los Derechos Reservados</p>
-    </footer>
+    <%- include('./partials/footer') %>
+
 </body>
 </html>
