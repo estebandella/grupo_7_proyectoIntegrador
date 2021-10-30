@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <!--EL SEGUNDO PARAMETRO ES UN OBJETO, CON UNA PROPIEDAD POR CADA VARIABLE (QEU VOY A USAR DENTRO DEL EJS)-->
-    <%- include('./partials/head', {titulo:'Login', stylesFile:'stylelogin.css'}) %>
+    <%- include('./partials/head', {titulo:'Edicion de producto', stylesFile:'styleproduct.css'}) %>
     <body>
     <!-- Header -->
     <%- include('./partials/header') %>
@@ -29,29 +29,42 @@
                             <label for="email">Seleccionar Imagenes</label><br>
                             <input autofocus="true" class="form-imagen" type="file" name="user" accept = '.jpg' multiple>
                         </div>
-
-                        <!-- Categoría ( category ) -->
-                        <div class="login-form-group">
-                            <label for="email">Categoría</label><br>
-                            <label><input type="checkbox" id="categoria" value="noche"> Noche</label><br>
-                            <label><input type="checkbox" id="categoria" value="deporte"> Deporte</label><br>
-                            <label><input type="checkbox" id="categoria" value="oficina"> Oficina</label><br>
-                            <label><input type="checkbox" id="categoria" value="casual"> Casual</label><br>
-                        </div>
+                        
+                        <!-- Categorias -->
+                        <section class="filtro">
+                            <div class="filtro-mat-cat-color">
+                                <select class="filtro-categoria" name="Categoria">
+                                    <option value="#/" selected> Categoria </option>
+                                    <option value="#/"> Deporte </option>
+                                    <option value="#/"> Montaña </option>
+                                    <option value="#/"> Ciudad </option>
+                                    <option value="#/"> Noche </option>
+                                    <option value="#/"> Oficina </option>
+                                </select>
+                            </div>
+                        </section>
 
                         <!-- Colores (o cualquier otro campo similar como: tamaños, talles, etc) -->
-                        <div class="login-form-group">
+                        <div>
                             <label for="email">Colores</label><br>
+                        </div>
+                        <div class="color-form-group">
+                            <div class="color-box">
                             <label><input type="checkbox" id="colores" value="rojo"> Rojo </label><br>
                             <label><input type="checkbox" id="colores" value="verde"> Verde </label><br>
                             <label><input type="checkbox" id="colores" value="azul"> Azul </label><br>
+                            </div>
+                            <div class="color-box">
                             <label><input type="checkbox" id="colores" value="amarillo"> Amarillo </label><br>
                             <label><input type="checkbox" id="colores" value="marron"> Marron </label><br>
                             <label><input type="checkbox" id="colores" value="purpura"> Purpura </label><br>
+                            </div>
+                            <div class="color-box">
                             <label><input type="checkbox" id="colores" value="gris claro"> Gris claro </label><br>
                             <label><input type="checkbox" id="colores" value="gris oscuro"> Gris oscuro </label><br>
                             <label><input type="checkbox" id="colores" value="negro"> Negro </label><br>
                             <label><input type="checkbox" id="colores" value="blanco"> Blanco </label><br>
+                        </div>
                         </div>
 
                         <!-- Precio ( price ) -->

@@ -1,0 +1,317 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header-completo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header-barraSupFija {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #050505;
+    color: #fff;
+    text-align: center;
+    /* centra el texto en la horizontal */
+    align-items: center;
+    /* centra el texto el a vertical */
+    font-size: 8px;
+    text-align: center;
+}
+
+.header-barraTop-texto {
+    align-items: center;
+}
+
+.header-menu-busca-carrito {
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+    font-size: 30px;
+    text-align: center;
+    /* centra el texto en la horizontal */
+    align-items: center;
+    /* centra el texto el a vertical */
+}
+
+.marca {
+    font-size: 25px;
+    font-weight: bold;
+    color: #666;
+}
+
+
+.header-busca-carrito {
+    display: flex;
+    align-items: center;
+}
+
+.header-busca-carrito i {
+    padding: 0px 10px;
+    color: #666
+}
+
+.header-titulo {
+    display: block;
+    justify-content: center;
+    background-color: #FF1493;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    /* centra el texto en la horizontal */
+    align-items: center;
+    /* centra el texto el a vertical */
+    padding: 30px 0px;
+    font-size: 20px;
+}
+
+.header-titulo h1 {
+    margin: 0px;
+}
+/*  PAGINA LOGIN ******************************************************* */
+
+.login-panel form {
+    padding: 40px 20px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.login-form-group {
+    margin-bottom: 15px;
+}
+
+.login-container .login-panel {
+    color: #2d3748;
+}
+
+.login-container {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.login-panel input[type='submit']:hover,
+.register input[type='submit']:hover{
+    background-color: #aa009c;
+}
+
+.login-panel .h3 {
+    margin: 40px 20px 0;
+    line-height: 1.5;
+}
+
+.form-control {
+    box-shadow: inset 0 1px 2px rgb(203 203 210 / 40%);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #3f3f44;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #cbcbd2;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+form .btn {
+    border: 1px solid transparent;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #aa009c;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.login-form-group label { 
+    color: #000000; 
+    font-size: 12px;
+    font-weight: bold; 
+    display: block; 
+} 
+
+
+/* FOOTER *************************  */
+
+.lineaFooter {
+    background-color: #ebebeb;
+    padding: 1px 0px;
+    margin: 20px 0px;
+    width: 90%;
+}
+
+.footerStart {
+    display: flex;
+    align-items: center;
+}
+
+.footerStart i {
+    margin: 0px 5px 0px 5px;
+    color: #050505;
+    font-size: 18px;
+}
+
+footer {
+    margin: 0px 0px 20px 0px;
+    height: 50px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* REGISTER *************************  */
+.register-style {
+    display: block;
+    width: 50%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #3f3f44;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #cbcbd2;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.register-label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.login-panel p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.register-label label {
+    margin: 10px;
+}
+
+.cancela-register {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+}
+
+/* FILTROS *************************  */
+
+.filtro {
+    display: block;
+    margin: 20px 20px;
+    color: #666
+}
+
+.filtro-ordenar-bloque {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filtro select {
+    width: 100px;
+    height: 30px;
+    color: #666;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border: solid 1px grey;
+    border-radius: 15px;
+}
+
+.lineaFilter {
+    background-color: #ebebeb;
+    padding: 1px 0px;
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.filtro-mat-cat-color {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*  PAGINA LOGIN ******************************************************* */
+
+.color-form-group {
+    /* margin-bottom: 15px; */
+    /* height: 400px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+
+    /* display: grid;
+	grid-template-columns: 100px auto 100px;
+	grid-template-rows: repeat(3, 100px);
+	grid-gap: 1rem; */
+
+}
+
+.color-box {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
