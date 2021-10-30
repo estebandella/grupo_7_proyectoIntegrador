@@ -22,6 +22,9 @@ const mainController = {
     },
     shoppingCart: (req,res) => {
         res.render('shoppingCart');
+    },
+    editproduct: (req,res) => {
+        res.render('editproduct');
     }
 
 };

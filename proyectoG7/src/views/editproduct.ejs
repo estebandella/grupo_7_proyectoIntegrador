@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <!--EL SEGUNDO PARAMETRO ES UN OBJETO, CON UNA PROPIEDAD POR CADA VARIABLE (QEU VOY A USAR DENTRO DEL EJS)-->
+    <%- include('./partials/head', {titulo:'Login', stylesFile:'stylelogin.css'}) %>
+    <body>
+    <!-- Header -->
+    <%- include('./partials/header') %>
+        
+        <main class="login-container">
+            <div class="login-content">
+                <div class="login-panel">
+                    <h2 class="h3">Edita el producto seleccionado</h2>
+                    <form action="/" method="POST">
+
+                        <!-- Nombre del producto ( name ) -->
+                        <div class="login-form-group">
+                            <label for="email">Nombre del producto</label><br>
+                            <input autofocus="true" class="form-control" type="text" name="user" placeholder="Nombre del producto">
+                        </div>
+
+                        <!-- Descripción ( description ) -->
+                        <div class="login-form-group">
+                            <label for="email">Descripción</label><br>
+                            <textarea autofocus="true" class="form-control" name="descripcion" rows='10' > Descripción del producto y los detalles que le gustaría saber al cliente. </textarea>
+                        </div>
+
+                        <!-- Imagen ( image ) -->
+                        <div class="login-form-group">
+                            <label for="email">Seleccionar Imagenes</label><br>
+                            <input autofocus="true" class="form-imagen" type="file" name="user" accept = '.jpg' multiple>
+                        </div>
+
+                        <!-- Categoría ( category ) -->
+                        <div class="login-form-group">
+                            <label for="email">Categoría</label><br>
+                            <label><input type="checkbox" id="categoria" value="noche"> Noche</label><br>
+                            <label><input type="checkbox" id="categoria" value="deporte"> Deporte</label><br>
+                            <label><input type="checkbox" id="categoria" value="oficina"> Oficina</label><br>
+                            <label><input type="checkbox" id="categoria" value="casual"> Casual</label><br>
+                        </div>
+
+                        <!-- Colores (o cualquier otro campo similar como: tamaños, talles, etc) -->
+                        <div class="login-form-group">
+                            <label for="email">Colores</label><br>
+                            <label><input type="checkbox" id="colores" value="rojo"> Rojo </label><br>
+                            <label><input type="checkbox" id="colores" value="verde"> Verde </label><br>
+                            <label><input type="checkbox" id="colores" value="azul"> Azul </label><br>
+                            <label><input type="checkbox" id="colores" value="amarillo"> Amarillo </label><br>
+                            <label><input type="checkbox" id="colores" value="marron"> Marron </label><br>
+                            <label><input type="checkbox" id="colores" value="purpura"> Purpura </label><br>
+                            <label><input type="checkbox" id="colores" value="gris claro"> Gris claro </label><br>
+                            <label><input type="checkbox" id="colores" value="gris oscuro"> Gris oscuro </label><br>
+                            <label><input type="checkbox" id="colores" value="negro"> Negro </label><br>
+                            <label><input type="checkbox" id="colores" value="blanco"> Blanco </label><br>
+                        </div>
+
+                        <!-- Precio ( price ) -->
+                        <div class="login-form-group">
+                            <label for="email">Precio</label><br>
+                            <input autofocus="true" class="form-control" type="password" name="pass" placeholder="$">
+                        </div>                 
+                    
+                        <button class="btn btn-primary btn-lg" type="submit" value="guerdarCambios">Guardar Cambios </button><br>
+                    </form>
+                </div>
+            </div>
+        </main>
+        
+        <%- include('./partials/footer') %>
+        
+    </body>
+</html>

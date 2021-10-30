@@ -65,6 +65,7 @@ body {
     color: #666
 }
 
+
 .header-titulo {
     display: block;
     justify-content: center;
@@ -275,10 +276,20 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0px;
+    position: relative;
 }
 
 .detalle img {
     width: 100%;
+}
+
+.detalle i {
+    padding: 0px 10px;
+    color: #666;
+    font-size: 25px;
+    position: absolute;
+    right: -50px;
+    bottom: 50px;
 }
 
 .comprar {

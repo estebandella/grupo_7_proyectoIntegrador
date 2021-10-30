@@ -12,6 +12,7 @@ router.get('/login', mainController.login);
 router.get('/productDetail', mainController.productDetail);
 router.get('/register', mainController.register);
 router.get('/shoppingCart', mainController.shoppingCart);
+router.get('/edit', mainController.editproduct);
 
 
 // Acá exportamos el resultado
