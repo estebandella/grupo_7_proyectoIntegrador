@@ -33,6 +33,9 @@ app.use(express.static(publicPath));*/
 app.use('/', mainRouter);
 
 
+//Para poder trabajar con los datos que se envían desde el formulario
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 
 
 // PAGINA HOME

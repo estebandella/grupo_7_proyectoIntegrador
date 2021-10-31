@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--EL SEGUNDO PARAMETRO ES UN OBJETO, CON UNA PROPIEDAD POR CADA VARIABLE (QEU VOY A USAR DENTRO DEL EJS)-->
+<%- include('./partials/head', {titulo:'Register', stylesFile:'stylelogin.css'}) %>
+
+<body>
+
+    <!-- Header -->
+    <%- include('./partials/header') %>
+    
+    <main class="login-container">
+        <div class="login-content">
+            <div class="login-panel">
+                <h2 class="h3">Formulario de Creacion de Productos en Carteras MILUZ</h2>
+                <p>Carga de productos</p>
+                <form action="" method="POST">
+                    
+                    <div class="register-label">
+                        <label for="productId">ID del producto</label>
+                        <input class="register-style" type="text" id="productId" name="productId" required  placeholder="<%= products.id %>">
+                    </div>
+                    <div class="register-label">
+                        <label for="nombre">Nombre del producto</label>
+                        <input class="register-style" type="text" id="nombre" name="nombre" required maxlength="15" placeholder="<%= products.nombre %>">
+                    </div>
+                    <div class="register-label">
+                        <label for="precio">Precio</label>
+                        <input class="register-style" type="text" id="precio" name="precio" required placeholder="<%= products.precio %>">
+                    </div>
+                    <div class="register-label">
+                        <label for="cuotas">Cuotas</label>
+                        <input class="register-style" type="text" id="cuotas" name="cuotas" required placeholder="<%= products.cuotas %>">
+                    </div>
+                    <div class="register-label">
+                        <label for="descripcion">Descripción</label>
+                        <input class="register-style" type="text" id="descripcion" name="descripcion" required placeholder="<%= products.descripcion %>">
+                    </div>
+                    <div class="register-label">
+                        <label for="medidas">Medidas</label>
+                        <input class="register-style" type="text" id="medidas" name="medidas" required placeholder="<%= products.medidas %>">
+                    </div>
+                    <div class="register-label">
+                        <label for="cuidados">Cuidados</label>
+                        <input class="register-style" type="text" id="cuidados" name="cuidados" required placeholder="<%= products.cuidados %>">
+                    </div>
+                    <div class="register-label">
+                        <label for="colores">Colores</label><br>
+                        <div class="style-box">
+                        <label><input class="register-style" type="checkbox" id="colores" value="rojo"> Rojo </label><br>
+                        <label><input class="register-style" type="checkbox" id="colores" value="verde"> Verde </label><br>
+                        <label><input class="register-style" type="checkbox" id="colores" value="azul"> Azul </label><br>
+                        <label><input class="register-style" type="checkbox" id="colores" value="amarillo"> Amarillo </label><br>
+                        <label><input class="register-style" type="checkbox" id="colores" value="marron"> Marron </label><br>
+                        <label><input class="register-style" type="checkbox" id="colores" value="purpura"> Purpura </label><br>
+                        <label><input class="register-style" type="checkbox" id="colores" value="gris claro"> Gris claro </label><br>
+                        <label><input class="register-style" type="checkbox" id="colores" value="gris oscuro"> Gris oscuro </label><br>
+                        <label><input class="register-style" type="checkbox" id="colores" value="negro"> Negro </label><br>
+                        <label><input class="register-style" type="checkbox" id="colores" value="blanco"> Blanco </label><br>
+                        </div>
+                    </div>
+                    <div class="register-label">
+                        <label for="imagen">Seleccionar Imágen</label><br>
+                        <input autofocus="true" class="imagen" type="file" name="imagen" accept = '.jpg' multiple>
+                    </div>
+                    <div>
+                        <button  class="btn btn-primary btn-lg" type="submit">CREAR</button>
+                    </div>
+                    <button class="cancela-register" type="submit">Cancelar</button>
+       
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <%- include('./partials/footer') %>
+
+</body>
+</html>

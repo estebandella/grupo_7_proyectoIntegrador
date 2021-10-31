@@ -1,20 +1,48 @@
 [
 
     {
-        "titulo": "Carpaccio fresco",
-        "descripcion": "Entrada Carpaccio de salmón con cítricos U$S 65.50" 
+        "id": 1,
+        "nombre": "Cartera Char",
+        "precio": "$41.500",
+        "cuotas": "12 cuotas de $3.458",
+        "descripcion": "Bolso de gamuzon con estampa" ,
+        "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
+        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+        "color": "Rosa",
+        "imagen": "4YTTRIXIT-OVNG-0IMG_1135.rew.jpg"
     },
     {
-        "titulo": "Risotto de berenjena",
-        "descripcion": "Risotto de berenjena y queso de cabra U$S 47.00" 
+        "id": 2,
+        "nombre": "Cartera Char",
+        "precio": "$41.500",
+        "cuotas": "12 cuotas de $3.458",
+        "descripcion": "Bolso de gamuzon con estampa" ,
+        "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
+        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+        "color": "Rosa",
+        "imagen": "4YTTRIXIT-OVNG-0IMG_1135.rew.jpg"
     },
     {
-        "titulo": "Mousse de arroz",
-        "descripcion": "Mousse de arroz con leche y aroma de azahar U$S 27.50" 
+        "id": 3,
+        "nombre": "Cartera Char",
+        "precio": "$41.500",
+        "cuotas": "12 cuotas de $3.458",
+        "descripcion": "Bolso de gamuzon con estampa" ,
+        "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
+        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+        "color": "Rosa",
+        "imagen": "4YTTRIXIT-OVNG-0IMG_1135.rew.jpg"
     },
     {
-        "titulo": "Espárragos blancos",
-        "descripcion": "Espárragos blancos con vinagreta de verduras y jamón ibérico U$S 37.50" 
+        "id": 4,
+        "nombre": "Cartera Char",
+        "precio": "$41.500",
+        "cuotas": "12 cuotas de $3.458",
+        "descripcion": "Bolso de gamuzon con estampa" ,
+        "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
+        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+        "color": "Rosa",
+        "imagen": "4YTTRIXIT-OVNG-0IMG_1135.rew.jpg"
     }
     
 ]

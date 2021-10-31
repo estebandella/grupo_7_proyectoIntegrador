@@ -227,6 +227,7 @@ footer {
     border: 1px solid #cbcbd2;
     border-radius: 4px;
     margin: auto;
+    margin-top: 10px;
 }
 
 .register-label {
@@ -249,4 +250,26 @@ footer {
     text-decoration: none;
     font-size: 14px;
     border: none;
+}
+
+.style-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    width: fit-content;
+}
+
+.imagen {
+    margin: 10px;
 }
