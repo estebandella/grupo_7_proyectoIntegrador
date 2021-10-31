@@ -9,7 +9,7 @@
         "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
         "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
         "color": ["azul", "amarillo"],
-        "imagen": "HTPARTY-AZOR.jpg"
+        "imagen": "PARTY-T-NG-OR.jpg"
     },
     {
         "id": 2,
@@ -20,7 +20,7 @@
         "medidas": "Alto 30cm. Ancho 25cm. Profundidad 10cm.",
         "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
         "color": ["gris", "rojo", "naranja", "violeta", "negro", "verde"],
-        "imagen": "4YTTRIXIT-OVNG-0IMG_1135.rew.jpg"
+        "imagen": "CHULI-Bol--M-MB.jpg"
     },
     {
         "id": 3,
@@ -31,7 +31,7 @@
         "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
         "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
         "color": ["gris", "rojo"],
-        "imagen": "4YTTRIXIT-OVNGIMG_1137rew.jpg"
+        "imagen": "GIRL-C-7C-NI.jpg"
     },
     {
         "id": 4,
@@ -42,7 +42,7 @@
         "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
         "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
         "color": ["violeta", "amarillo", "negro"],
-        "imagen": "HCHOOK-NGNI-IMG_0744rew.jpg"
+        "imagen": "GIRL-T-NG-OR.jpg"
     },
     {
         "id": 5,
@@ -54,6 +54,17 @@
         "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
         "color": ["violeta", "amarillo", "negro"],
         "imagen": "HKCHAR-UVNI.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Kchar",
+        "precio": "$45.999",
+        "cuotas": "12 cuotas de $3.833",
+        "descripcion": "Bolso de gamuzon con estampa" ,
+        "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
+        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+        "color": ["violeta", "amarillo", "negro"],
+        "imagen": "HTPARTY-AZOR.jpg"
     }
     
 ]
