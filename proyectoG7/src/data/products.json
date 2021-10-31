@@ -2,47 +2,58 @@
 
     {
         "id": 1,
-        "nombre": "Cartera Char",
-        "precio": "$41.500",
-        "cuotas": "12 cuotas de $3.458",
+        "nombre": "Parti Azor",
+        "precio": "$27.999",
+        "cuotas": "12 cuotas de $2.333.25",
         "descripcion": "Bolso de gamuzon con estampa" ,
         "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
         "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
-        "color": "Rosa",
-        "imagen": "4YTTRIXIT-OVNG-0IMG_1135.rew.jpg"
+        "color": ["azul", "amarillo"],
+        "imagen": "HTPARTY-AZOR.jpg"
     },
     {
         "id": 2,
-        "nombre": "Cartera Char",
-        "precio": "$41.500",
-        "cuotas": "12 cuotas de $3.458",
-        "descripcion": "Bolso de gamuzon con estampa" ,
-        "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
+        "nombre": "Mochila Srkan",
+        "precio": "$25.999",
+        "cuotas": "12 cuotas de $2.166",
+        "descripcion": "Mochila urbana" ,
+        "medidas": "Alto 30cm. Ancho 25cm. Profundidad 10cm.",
         "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
-        "color": "Rosa",
+        "color": ["gris", "rojo", "naranja", "violeta", "negro", "verde"],
         "imagen": "4YTTRIXIT-OVNG-0IMG_1135.rew.jpg"
     },
     {
         "id": 3,
-        "nombre": "Cartera Char",
-        "precio": "$41.500",
-        "cuotas": "12 cuotas de $3.458",
+        "nombre": "Mochila Char",
+        "precio": "$26.999",
+        "cuotas": "12 cuotas de $2.249",
         "descripcion": "Bolso de gamuzon con estampa" ,
         "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
         "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
-        "color": "Rosa",
-        "imagen": "4YTTRIXIT-OVNG-0IMG_1135.rew.jpg"
+        "color": ["gris", "rojo"],
+        "imagen": "4YTTRIXIT-OVNGIMG_1137rew.jpg"
     },
     {
         "id": 4,
-        "nombre": "Cartera Char",
-        "precio": "$41.500",
-        "cuotas": "12 cuotas de $3.458",
+        "nombre": "Chook",
+        "precio": "$41.999",
+        "cuotas": "12 cuotas de $3.499",
         "descripcion": "Bolso de gamuzon con estampa" ,
         "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
         "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
-        "color": "Rosa",
-        "imagen": "4YTTRIXIT-OVNG-0IMG_1135.rew.jpg"
+        "color": ["violeta", "amarillo", "negro"],
+        "imagen": "HCHOOK-NGNI-IMG_0744rew.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Kchar",
+        "precio": "$45.999",
+        "cuotas": "12 cuotas de $3.833",
+        "descripcion": "Bolso de gamuzon con estampa" ,
+        "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
+        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+        "color": ["violeta", "amarillo", "negro"],
+        "imagen": "HKCHAR-UVNI.jpg"
     }
     
 ]

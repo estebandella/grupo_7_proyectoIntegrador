@@ -57,74 +57,23 @@
     <!-- ARTICULOS -->
 
     <section class="article-list">
-        <article>
-            <a href="/productDetail"><img src="img/HTPARTY-AZOR.jpg" width="200px"></a>
-            <div>
-                <p class="articulo-titulo">Cartera Char </p>
-                <p class="articulo-precio">$41.500 </p>
-                <p class="articulo-cuotas">12 cuotas de $3.458 </p>
-            </div>
-            <div class="articulo-colores">
-                <div class="circulo-azul"><i class="fas fa-circle"></i></div>
-                <div class="circulo-amarillo"><i class="fas fa-circle"></i></div>
-            </div>
-        </article>
-
-        <article>
-            <a href="/productDetail"><img src="img/4YTTRIXIT-OVNG-0IMG_1135.rew.jpg" width="200px"></a>
-            <div>
-                <p class="articulo-titulo">Cartera Char </p>
-                <p class="articulo-precio">$41.500 </p>
-                <p class="articulo-cuotas">12 cuotas de $3.458 </p>
-            </div>
-            <div class="articulo-colores">
-                <div class="circulo-gris"><i class="fas fa-circle"></i></div>
-                <div class="circulo-rojo"><i class="fas fa-circle"></i></div>
-                <div class="circulo-verde"><i class="fas fa-circle"></i></div>
-                <div class="circulo-naranja"><i class="fas fa-circle"></i></div>
-                <div class="circulo-negro"><i class="fas fa-circle"></i></div>
-                <div class="circulo-violeta"><i class="fas fa-circle"></i></div>
-            </div>
-        </article>
-
-        <article>
-            <a href="/productDetail"><img src="img/4YTTRIXIT-OVNGIMG_1137rew.jpg" width="200px"></a>
-            <div>
-                <p class="articulo-titulo">Cartera Char </p>
-                <p class="articulo-precio">$41.500 </p>
-                <p class="articulo-cuotas">12 cuotas de $3.458 </p>
-            </div>
-            <div class="articulo-colores">
-                <div class="circulo-gris"><i class="fas fa-circle"></i></div>
-            </div>
-        </article>
-
-        <article>
-            <a href="/productDetail"><img src="img/HCHOOK-NGNI-IMG_0744rew.jpg" width="200px"></a>
-            <div>
-                <p class="articulo-titulo">Cartera Char </p>
-                <p class="articulo-precio">$41.500 </p>
-                <p class="articulo-cuotas">12 cuotas de $3.458 </p>
-            </div>
-            <div class="articulo-colores">
-                <div class="circulo-gris"><i class="fas fa-circle"></i></div>
-                <div class="circulo-naranja"><i class="fas fa-circle"></i></div>
-            </div>
-        </article>
-
-        <article>
-            <a href="/productDetail"><img src="img/HKCHAR-UVNI.jpg" width="200px"></a>
-            <div>
-                <p class="articulo-titulo">Cartera Char </p>
-                <p class="articulo-precio">$41.500 </p>
-                <p class="articulo-cuotas">12 cuotas de $3.458 </p>
-            </div>
-            <div class="articulo-colores">
-                <div class="circulo-violeta"><i class="fas fa-circle"></i></div>
-                <div class="circulo-amarillo"><i class="fas fa-circle"></i></div>
-                <div class="circulo-negro"><i class="fas fa-circle"></i></div>
-            </div>
-        </article>
+        
+        <% productList.forEach( (product) => { %>
+            <article>
+                <a href="/productDetail/<%= product.id%>"><img src="img/<%= product.imagen %>"></a>
+                <div>
+                    <p class="articulo-titulo"><%= product.nombre %></p>
+                    <p class="articulo-precio"><%= product.precio %></p>
+                    <p class="articulo-cuotas"><%= product.cuotas %></p>
+                </div>
+                <div class="articulo-colores">
+                    <% product.color.forEach( (color) => { %>
+                    <div class="circulo-<%= color %>"><i class="fas fa-circle"></i></div>
+                    <% }); %>
+                </div>
+            </article>
+          <% }); %>
+          
     </section>
 
 
