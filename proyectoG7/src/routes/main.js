@@ -12,7 +12,7 @@ router.get('/login', mainController.login);
 router.get('/productDetail/:id', mainController.productDetail);
 router.get('/register', mainController.register);
 router.get('/shoppingCart', mainController.shoppingCart);
-router.get('/edit', mainController.editproduct);
+router.get('/edit/:id', mainController.editproduct);
 router.get('/create', mainController.createProduct);
 
 router.post("/create/product", (req, res) => {

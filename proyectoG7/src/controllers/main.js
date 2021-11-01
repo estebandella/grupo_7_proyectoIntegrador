@@ -9,6 +9,7 @@ const productsFilePath = path.join(__dirname, '../data/products.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 const productList = require('../data/products.json'); 
+const categories = require('../data/categories.json'); 
 // objeto literal con las acciones para cada ruta
 // cada propiedad de un objeto va a ser una respuesta a una ruta (no sabemos cual eso depende del enrutador)
 const mainController = {
@@ -20,7 +21,7 @@ const mainController = {
         res.render('login');
     },
     productDetail: (req,res) => {
-        const product = productList.find(product => (product.id == req.params.id)) || products[0];
+        const product = findProductById(req.params.id);
         res.render('productDetail', {product:product});
     },
     register: (req,res) => {
@@ -30,7 +31,8 @@ const mainController = {
         res.render('shoppingCart');
     },
     editproduct: (req,res) => {
-        res.render('editproduct');
+        const product = findProductById(req.params.id);
+        res.render('editproduct', {product:product, categories:categories});
     },
     createProduct: (req,res) => {
         const newProduct = [ ];
@@ -44,5 +46,8 @@ const mainController = {
 
 };
 
+function findProductById(id) {
+    return productList.find(product => (product.id == id)) || products[0];
+}
 // Acá exportamos el resultado
 module.exports = mainController;
