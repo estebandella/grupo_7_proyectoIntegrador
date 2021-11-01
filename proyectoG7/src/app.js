@@ -29,10 +29,13 @@ app.use(express.static('public'));
 app.use(express.static(publicPath));*/
 
 //************************************************
-// utas y después las vistas de EJS
+// rutas y después las vistas de EJS
 app.use('/', mainRouter);
 
 
+//Para poder trabajar con los datos que se envían desde el formulario
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 
 
 // PAGINA HOME

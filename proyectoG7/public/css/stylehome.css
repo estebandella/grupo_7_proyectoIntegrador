@@ -250,7 +250,9 @@ article {
 footer {
     margin: 0px 0px 20px 0px;
     height: 50px;
+    text-align: center;
 }
+
 
 
 /*  PAGINA DETALLE DE PRODUCTO ******************************************************* */
@@ -369,17 +371,27 @@ footer {
 
 /*  PAGINA EDICION DE PRODUCTO ******************************************************* */
 
-
-
 /* CELULARES */
 @media (min-width:361px) {
+
+
+
 }
 
 /* TABLET */
 @media (min-width:768px) {
+
+
+
+
 }
 
 /* NOTEBOOK */
 @media (min-width:1280px) {
+
+
+
+
+    
 }
 

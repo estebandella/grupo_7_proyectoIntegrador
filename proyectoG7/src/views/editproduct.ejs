@@ -15,7 +15,7 @@
                         <!-- Nombre del producto ( name ) -->
                         <div class="login-form-group">
                             <label for="email">Nombre del producto</label><br>
-                            <input autofocus="true" class="form-control" type="text" name="user" placeholder="Nombre del producto">
+                            <input autofocus="true" class="form-control" type="text" name="user" placeholder="Nombre del producto" value="<%= product.nombre%>">
                         </div>
 
                         <!-- Descripción ( description ) -->
@@ -34,12 +34,14 @@
                         <section class="filtro">
                             <div class="filtro-mat-cat-color">
                                 <select class="filtro-categoria" name="Categoria">
+                                    
                                     <option value="#/" selected> Categoria </option>
                                     <option value="#/"> Deporte </option>
                                     <option value="#/"> Montaña </option>
                                     <option value="#/"> Ciudad </option>
                                     <option value="#/"> Noche </option>
                                     <option value="#/"> Oficina </option>
+                                    
                                 </select>
                             </div>
                         </section>
