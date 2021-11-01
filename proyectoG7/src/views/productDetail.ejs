@@ -15,16 +15,19 @@
 
         <section class="miniatura">
             <article>
-                <img src="img/HTPARTY-AZOR.jpg" width="200px">
+                <img src="../img/<%= product.imagen %>" alt="<%= product.nombre %>">
+                <img src="../img/<%= product.imagen %>" alt="<%= product.nombre %>">
+                <img src="../img/<%= product.imagen %>" alt="<%= product.nombre %>">
+                <!-- 
                 <div>
-                    <p class="articulo-titulo">Cartera Char </p>
-                    <p class="articulo-precio">$41.500 </p>
-                    <p class="articulo-cuotas">12 cuotas de $3.458 </p>
+                    <p class="articulo-titulo"><%= product.nombre %> </p>
+                    <p class="articulo-precio"><%= product.precio %></p>
+                    <p class="articulo-cuotas"><%= product.cuotas %></p>
                 </div>
                 <div class="articulo-colores">
                     <div class="circulo-azul"><i class="fas fa-circle"></i></div>
                     <div class="circulo-amarillo"><i class="fas fa-circle"></i></div>
-                </div>
+                </div>-->
             </article>
             <div class="miniatura-inf"></div>
         </section>
@@ -33,7 +36,7 @@
         <!-- ARTICULO DETALLE -->
 
         <section class="detalle">
-            <img src="img/HKCHAR-UVNI.jpg" width="200px">
+            <img src="../img/<%= product.imagen %>"  alt="<%= product.nombre %>">
             <a href="/edit"><i class="fas fa-pencil-alt"></i></a>
         </section>
 
@@ -41,9 +44,9 @@
 
         <section class="comprar">
             <div>
-                <p class="articulo-titulo">Cartera Char </p>
-                <p class="articulo-precio">$41.500 </p>
-                <p class="articulo-cuotas">12 cuotas de $3.458 </p>
+                <p class="articulo-titulo"><%= product.nombre %></p>
+                <p class="articulo-precio"><%= product.precio %></p>
+                <p class="articulo-cuotas"><%= product.cuotas %></p>
             </div>
             <div class="lineaFooter"></div>
             <p>Seleccionar color:</p>
@@ -59,13 +62,13 @@
             <div class="comprar-detalle">
                 
                 <h3>Detalles del producto</h3>
-                <p>Bolso de gamuzon con estampa</p>
+                <p><%= product.descripcion %></p>
 
                 <h3>Medida</h3>
-                <p>Alto 38cm. Ancho 32cm. Profundidad 2cm.</p>
+                <p><%= product.medidas %></p>
 
                 <h3>Cuidados</h3>
-                <p>No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color</p>
+                <p><%= product.cuidados %></p>
             
             </div>
             <div class="comprar-compartir">

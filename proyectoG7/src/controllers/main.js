@@ -20,7 +20,8 @@ const mainController = {
         res.render('login');
     },
     productDetail: (req,res) => {
-        res.render('productDetail');
+        const product = productList.find(product => (product.id == req.params.id)) || products[0];
+        res.render('productDetail', {product:product});
     },
     register: (req,res) => {
         res.render('register');

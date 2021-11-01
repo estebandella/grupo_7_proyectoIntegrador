@@ -29,7 +29,7 @@ app.use(express.static('public'));
 app.use(express.static(publicPath));*/
 
 //************************************************
-// utas y después las vistas de EJS
+// rutas y después las vistas de EJS
 app.use('/', mainRouter);
 
 
