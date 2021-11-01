@@ -361,20 +361,42 @@ footer p {
     /* background: #aa009c; */
 }
 
-
-
-/* CELULARES */
-@media (min-width:361px) {
     .header-barraSupFija {
         display: none;
     };
+
+/* CELULARES */
+@media (min-width:361px) {
+    /* .header-barraSupFija {
+        display: none;
+    }; */
+    .header-barraSupFija {
+        /* padding: 10px;
+        width: 100%;
+        height: 40px; */
+        /* background-color: red; */
+        /* color: #fff;
+        text-align: center;
+        /* centra el texto en la horizontal */
+        /* align-items: center; */
+        /* centra el texto el a vertical */
+        /* font-size: 8px; */
+        /* text-align: center; */
+        /* display: none; */
+    }
 
 }
 
 /* TABLET */
 @media (min-width:768px) {
+    .header-barraSupFija {
+        display: block;
+    }
 }
 
 /* NOTEBOOK */
 @media (min-width:1280px) {
+    .header-barraSupFija {
+        display: block;
+    }
 }
