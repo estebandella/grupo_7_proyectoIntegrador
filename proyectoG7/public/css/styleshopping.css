@@ -49,6 +49,12 @@ body {
     /* centra el texto el a vertical */
 }
 
+.header-menu-busca-carrito a img {
+    margin: 0px 0px 0px 130px;
+    height: 37px;
+    width: 120px;
+}
+
 .marca {
     font-size: 25px;
     font-weight: bold;
