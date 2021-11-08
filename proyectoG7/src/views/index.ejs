@@ -58,9 +58,9 @@
 
     <section class="article-list">
         
-        <% productList.slice(0,4).forEach( (product) => { %>
+        <% products.slice(0,4).forEach( (product) => { %>
             <article>
-                <a href="/productDetail/<%= product.id%>"><img src="img/<%= product.imagen %>" alt="<%= product.nombre %>"></a>
+                <a href="/products/<%= product.id%>"><img src="img/<%= product.imagen %>" alt="<%= product.nombre %>"></a>
                 <div>
                     <p class="articulo-titulo"><%= product.nombre %></p>
                     <p class="articulo-precio"><%= product.precio %></p>

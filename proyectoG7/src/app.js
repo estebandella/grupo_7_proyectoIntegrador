@@ -15,6 +15,8 @@ app.set('views','src/views');
 
 // llamamos al router 
 const mainRouter = require('./routes/main');
+const productsRouter = require('./routes/products');
+const usersRouter = require('./routes/users');
 
 //EVIANDO UN ARCHIVO AL SERVIDOR
 const path = require('path'); //unifica las rutas entre los distintos sistemas operativos
@@ -31,48 +33,13 @@ app.use(express.static(publicPath));*/
 //************************************************
 // rutas y después las vistas de EJS
 app.use('/', mainRouter);
+app.use('/products', productsRouter);
+app.use('/users', usersRouter);
 
 
 //Para poder trabajar con los datos que se envían desde el formulario
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-
-
-// PAGINA HOME
-/*app.get('/home', (req,res) => {
-    const archivo = path.join(__dirname,'/views/index.html');
-    res.sendFile(archivo);//via un arhcivo al navegador
-});
-
-// PAGINA DETALLE DE PRODUCTO
-app.get('/product', (req,res) => {
-    const archivo = path.join(__dirname,'/views/productDetail.html');
-    res.sendFile(archivo);//via un arhcivo al navegador
-});
-
-// PAGINA DE LOGIN
-app.get('/login', (req,res) => {
-    const archivo = path.join(__dirname,'/views/login.html');
-    res.sendFile(archivo);
-});
-
-// PAGINA DE CARRITO
-app.get('/shopping', (req,res) => {
-    const archivo = path.join(__dirname,'/views/shoppingCart.html');
-    res.sendFile(archivo);
-});
-
-// PAGINA DE REGISTRO
-app.get('/register', (req,res) => {
-    const archivo = path.join(__dirname,'/views/register.html');
-    res.sendFile(archivo);
-});
-
-// PAGINA DE CARRITO DE COMPRAS
-app.get('/carrito', (req,res) => {
-    const archivo = path.join(__dirname,'/views/shoppingCart.html');
-    res.sendFile(archivo);
-});*/
 
 
 //Levantamos el SERVIDOR

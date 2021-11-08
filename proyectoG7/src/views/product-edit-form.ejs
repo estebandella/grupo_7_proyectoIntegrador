@@ -10,18 +10,18 @@
             <div class="login-content">
                 <div class="login-panel">
                     <h2 class="h3">Edita el producto seleccionado</h2>
-                    <form action="/" method="POST">
+                    <form action="/:id/?_method_PUT" method="POST">
 
                         <!-- Nombre del producto ( name ) -->
                         <div class="login-form-group">
                             <label for="email">Nombre del producto</label><br>
-                            <input autofocus="true" class="form-control" type="text" name="user" placeholder="Nombre del producto" value="<%= product.nombre%>">
+                            <input autofocus="true" class="form-control" type="text" name="user" placeholder="Nombre del producto" value="<%= productToEdit.nombre%>">
                         </div>
 
                         <!-- Descripción ( description ) -->
                         <div class="login-form-group">
                             <label for="email">Descripción</label><br>
-                            <textarea autofocus="true" class="form-descripcion" name="descripcion" rows='10'> Descripción del producto y los detalles que le gustaría saber al cliente. </textarea>
+                            <textarea autofocus="true" class="form-descripcion" name="descripcion" rows='10'> <%= productToEdit.descripcion%> </textarea>
                         </div>
 
                         <!-- Imagen ( image ) -->
@@ -34,14 +34,12 @@
                         <section class="filtro">
                             <div class="filtro-mat-cat-color">
                                 <select class="filtro-categoria" name="Categoria">
-                                    
-                                    <option value="#/" selected> Categoria </option>
-                                    <option value="#/"> Deporte </option>
-                                    <option value="#/"> Montaña </option>
-                                    <option value="#/"> Ciudad </option>
-                                    <option value="#/"> Noche </option>
-                                    <option value="#/"> Oficina </option>
-                                    
+
+                                    <option value=""><%= productToEdit.categoria%></option>
+                                    <option value="in-sale">oficina</option>
+                                    <option value="visited" >Fiesta</option>
+
+                                  
                                 </select>
                             </div>
                         </section>
@@ -72,7 +70,7 @@
                         <!-- Precio ( price ) -->
                         <div class="login-form-group">
                             <label for="email">Precio</label><br>
-                            <input autofocus="true" class="form-control" type="password" name="pass" placeholder="$">
+                            <input autofocus="true" class="form-control" type="text" name="pass" placeholder="$" value="<%= productToEdit.precio%>">
                         </div>                 
                     
                         <button class="btn btn-primary btn-lg" type="submit" value="guerdarCambios">Guardar Cambios </button><br>

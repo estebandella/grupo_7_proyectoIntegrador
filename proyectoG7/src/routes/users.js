@@ -4,11 +4,12 @@ const express = require('express');
 const router = express.Router ();
 
 // traemos el controller
-const mainController = require('../controllers/main.js');
+const usersController = require('../controllers/users.js');
 
 // Acá definimos las rutas
-router.get('/', mainController.index);
+router.get('/', usersController.login);
 
+router.get('/register', usersController.register);
 
 
 // Acá exportamos el resultado

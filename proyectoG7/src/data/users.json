@@ -1,0 +1,16 @@
+[
+
+    {
+        "id": 1,
+        "nombre": "Mariano", 
+        "apellido": "Carli",
+        "direccion": "suiza 4250"
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Carla", 
+        "apellido": "Romero",
+        "direccion": "patagonia 777"
+    }
+]
