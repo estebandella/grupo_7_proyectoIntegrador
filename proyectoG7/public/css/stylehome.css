@@ -292,12 +292,23 @@ footer {
     width: 100%;
 }
 
-.detalle i {
+.detalle 
+.lapiz {
     padding: 0px 10px;
     color: #666;
     font-size: 25px;
     position: absolute;
-    right: -50px;
+    right: 100px;
+    bottom: 50px;
+}
+
+.detalle 
+.tacho {
+    padding: 0px 10px;
+    color: #666;
+    font-size: 25px;
+    position: absolute;
+    right: 50px;
     bottom: 50px;
 }
 

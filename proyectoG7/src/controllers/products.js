@@ -43,6 +43,7 @@ const productsController = {
 		const productToEdit = products.find(prod => prod.id == req.params.id);
 		res.render("product-edit-form", {productToEdit})
 	},
+
 	// Update - Method to update
 	update: (req, res) => {
 		// Do the magic
@@ -54,12 +55,12 @@ const productsController = {
 		// Do the magic
 		res.send("producto eliminado")
 	},
+
     shoppingCart : (req, res) => {
 		// Do the magic
 		res.render("shoppingCart")
 
 	}
-
 
 };
 

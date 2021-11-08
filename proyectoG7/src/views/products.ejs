@@ -1,1 +1,95 @@
-soy todos los productos
+<!DOCTYPE html>
+<html lang="en">
+<!--EL SEGUNDO PARAMETRO ES UN OBJETO, CON UNA PROPIEDAD POR CADA VARIABLE (QEU VOY A USAR DENTRO DEL EJS)-->
+<%- include('./partials/head', {titulo:'Home', stylesFile:'stylehome.css'}) %>
+
+<body>
+
+    <!-- Header -->
+    <%- include('./partials/header') %>
+
+    <!-- FILTRO -->
+    <section class="filtro">
+        <div class="filtro-ordenar-bloque">
+            <select class="filtro-ordenar" name="Ordenar por">
+                <option value="#/"> Menor valor </option>
+                <option value="#/"> Mayor valor </option>
+                <option value="#/"> Tendencia </option>
+                <option value="#/"> Mas vendido </option>
+            </select>
+        </div>
+
+        <p>Filtrar</p>
+        <div class="lineaFilter"></div>
+
+        <div class="filtro-mat-cat-color">
+            <select class="filtro-material" name="Material">
+                <option value="#/" selected> Material </option>
+                <option value="#/"> Cuero </option>
+                <option value="#/"> Tela </option>
+                <option value="#/"> Goretex </option>
+            </select>
+
+            <select class="filtro-categoria" name="Categoria">
+                <option value="#/" selected> Categoria </option>
+                <option value="#/"> Deporte </option>
+                <option value="#/"> Montaña </option>
+                <option value="#/"> Ciudad </option>
+                <option value="#/"> Noche </option>
+                <option value="#/"> Oficina </option>
+            </select>
+
+            <select class="filtro-color" name="Color">
+                <option value="#/" selected> Color </option>
+                <option value="#/"> Rojo </option>
+                <option value="#/"> Verde </option>
+                <option value="#/"> Azul </option>
+                <option value="#/"> Gris </option>
+                <option value="#/"> Negro </option>
+                <option value="#/"> Amarillo </option>
+                <option value="#/"> Violeta </option>
+            </select>
+        </div>
+
+    </section>
+
+
+    <!-- ARTICULOS -->
+
+    <section class="article-list">
+        
+        <% products.forEach( (product) => { %>
+            <article>
+                <a href="/products/<%= product.id%>"><img src="img/<%= product.imagen %>" alt="<%= product.nombre %>"></a>
+                <div>
+                    <p class="articulo-titulo"><%= product.nombre %></p>
+                    <p class="articulo-precio"><%= product.precio %></p>
+                    <p class="articulo-cuotas"><%= product.cuotas %></p>
+                </div>
+                <div class="articulo-colores">
+                    <% product.color.forEach( (color) => { %>
+                    <div class="circulo-<%= color %>"><i class="fas fa-circle"></i></div>
+                    <% }); %>
+                </div>
+            </article>
+          <% }); %>
+          
+    </section>
+
+
+    <!-- SECCION PARA SUSCRIBIRCE -->
+
+    <form class="suscribete">
+        <!-- TITULO DE SECCION -->
+        <div class="suscribete-titulo">
+            <h1>Suscribete a nuestro newsletter</h1>
+        </div>
+        <input type="email" id="mail" name="emaiUsuario" placeholder="ingresa tu e-mail" required minlength="3"
+            maxlength="8">
+    </form>
+
+    <%- include('./partials/footer') %>
+
+</body>
+
+</html>

@@ -10,7 +10,7 @@
             <div class="login-content">
                 <div class="login-panel">
                     <h2 class="h3">Edita el producto seleccionado</h2>
-                    <form action="/:id/?_method_PUT" method="POST">
+                    <form action="/products/<%= productToEdit.id%>/?_method=PUT" method="POST">
 
                         <!-- Nombre del producto ( name ) -->
                         <div class="login-form-group">
