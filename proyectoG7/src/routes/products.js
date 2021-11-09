@@ -2,6 +2,7 @@
 const express = require('express');
 
 const router = express.Router ();
+const multer = require('multer');
 
 // traemos el controller
 const productsController = require('../controllers/products.js');

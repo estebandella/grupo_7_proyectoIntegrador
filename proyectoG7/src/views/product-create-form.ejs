@@ -14,7 +14,7 @@
             <div class="login-panel">
                 <h2 class="h3">Formulario de Creacion de Productos en Carteras MILUZ</h2>
                 <p>Carga de productos</p>
-                <form action="/products" method="POST">
+                <form action="/products" method="POST" enctype="multipart/form-data">
                     
                     <div class="register-label">
                         <label for="productId">ID del producto</label>
@@ -61,7 +61,7 @@
                     </div>
                     <div class="register-label">
                         <label for="imagen">Seleccionar Imágen</label><br>
-                        <input autofocus="true" class="imagen" type="file" name="imagen" accept = '.jpg' multiple>
+                        <input autofocus="true" class="imagen" type="file" name="imagenProducto" accept = '.jpg' multiple>
                     </div>
                     <div>
                         <button  class="btn btn-primary btn-lg" type="submit">CREAR</button>

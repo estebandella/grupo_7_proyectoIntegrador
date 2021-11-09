@@ -53,7 +53,7 @@ const productsController = {
 	// Delete - Delete one product from DB
 	destroy : (req, res) => {
 		// Do the magic
-		res.render("producto eliminado" + req.params.id)
+		res.send("producto eliminado" + req.params.id)
 	},
 
     shoppingCart : (req, res) => {
