@@ -29,7 +29,12 @@
         <section class="detalle">
             <img src="../img/<%= product.imagen %>"  alt="<%= product.nombre %>">
             <a class='lapiz'  href="/products/edit/<%= product.id %>"><i class="fas fa-pencil-alt"></i></a>
-            <a class='tacho' href="/products/edit/<%= product.id %>"><i class="fas fa-trash-alt"></i></a>
+
+                <form action="/products/<%= product.id%>/?_method=DELETE" method="POST" style="display: inline-flex">
+                    <button type="submit" class='tacho' class="action-button delete"><i class="fas fa-trash-alt"></i></button>
+                </form>
+            
+
         </section>
 
         <!-- COMPRAR DETALLE -->

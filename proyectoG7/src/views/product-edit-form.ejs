@@ -10,7 +10,7 @@
             <div class="login-content">
                 <div class="login-panel">
                     <h2 class="h3">Edita el producto seleccionado</h2>
-                    <form action="/products/<%= productToEdit.id%>/?_method=PUT" method="POST">
+                    <form action="/products/<%= productToEdit.id%>?_method=PUT" method="POST">
 
                         <!-- Nombre del producto ( name ) -->
                         <div class="login-form-group">
@@ -73,7 +73,8 @@
                             <input autofocus="true" class="form-control" type="text" name="pass" placeholder="$" value="<%= productToEdit.precio%>">
                         </div>                 
                     
-                        <button class="btn btn-primary btn-lg" type="submit" value="guerdarCambios">Guardar Cambios </button><br>
+                        <button class="btn btn-primary btn-lg" type="submit" value="guerdarCambios">Guardar Cambios </button>
+                        <br>
                     </form>
                 </div>
             </div>

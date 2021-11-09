@@ -47,13 +47,13 @@ const productsController = {
 	// Update - Method to update
 	update: (req, res) => {
 		// Do the magic
-		res.send("producto editado")
+		res.send("producto editado!!!")
 	},
 
 	// Delete - Delete one product from DB
 	destroy : (req, res) => {
 		// Do the magic
-		res.send("producto eliminado")
+		res.render("producto eliminado" + req.params.id)
 	},
 
     shoppingCart : (req, res) => {

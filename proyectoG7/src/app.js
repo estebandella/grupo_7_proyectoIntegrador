@@ -17,6 +17,7 @@ app.set('views','src/views');
 const mainRouter = require('./routes/main');
 const productsRouter = require('./routes/products');
 const usersRouter = require('./routes/users');
+const methodOverride =  require('method-override'); // Pasar poder usar los métodos PUT y DELETE
 
 //EVIANDO UN ARCHIVO AL SERVIDOR
 const path = require('path'); //unifica las rutas entre los distintos sistemas operativos
@@ -40,6 +41,8 @@ app.use('/users', usersRouter);
 //Para poder trabajar con los datos que se envían desde el formulario
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+
+app.use(methodOverride('_method')); // Pasar poder pisar el method="POST" en el formulario por PUT y DELETE
 
 
 //Levantamos el SERVIDOR
