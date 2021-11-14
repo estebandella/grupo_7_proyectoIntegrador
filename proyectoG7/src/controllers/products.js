@@ -16,7 +16,10 @@ const productsController = {
     //controlador para la ruta index
     // Root - Show all products
 	index: (req, res) => {
-		res.render("products", {products})
+
+
+
+		res.render("products", {products: products})
 	},
 
 	// Detail - Detail from one product
@@ -32,9 +35,16 @@ const productsController = {
 	},
 	
 	// Create -  Method to store
-	store: (req, res) => {
-		// Do the magic
-		res.send("producto creado")
+	store: (req, res) => {	
+		const nuevoProducto= req.body;
+		nuevoProducto.id = products[products.length - 1].id + 1;
+		nuevoProducto.imagen = req.file ? req.file.filename : ' ';
+		products.push(nuevoProducto);
+
+		fs.writeFileSync(productsFilePath,JSON.stringify(products, null,' '));
+
+		res.redirect('/');
+		//res.send("producto creado")
 	},
 
 	// Update - Form to edit
@@ -53,7 +63,7 @@ const productsController = {
 	// Delete - Delete one product from DB
 	destroy : (req, res) => {
 		// Do the magic
-		res.send("producto eliminado" + req.params.id)
+		res.send("producto eliminado, id: " + req.params.id)
 	},
 
     shoppingCart : (req, res) => {

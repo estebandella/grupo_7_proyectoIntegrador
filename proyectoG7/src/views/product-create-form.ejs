@@ -16,10 +16,10 @@
                 <p>Carga de productos</p>
                 <form action="/products" method="POST" enctype="multipart/form-data">
                     
-                    <div class="register-label">
+                    <!--<div class="register-label">
                         <label for="productId">ID del producto</label>
                         <input class="register-style" type="text" id="productId" name="productId" required  placeholder="Ej. 1,2,3">
-                    </div>
+                    </div>-->
                     <div class="register-label">
                         <label for="nombre">Nombre del producto</label>
                         <input class="register-style" type="text" id="nombre" name="nombre" required maxlength="15" placeholder="Ej. Cartera">
@@ -59,9 +59,19 @@
                         <label><input class="register-style" type="checkbox" id="colores" value="blanco"> Blanco </label><br>
                         </div>
                     </div>
+                    <div class="col-12 col-md-6">
+						<label for="category" class="form-label">Categoría:</label>
+						<select name="categoria" id="category" class="form-input">
+							<option value="">Elegí</option>
+							<option value="Carteras">Carteras</option>
+							<option value="Bandoleras">Bandoleras</option>
+                            <option value="Bolsos Deportivos">Bolsos Deportivos</option>
+                            <option value="Mochilas">Mochilas</option>
+						</select>
+					</div>
                     <div class="register-label">
                         <label for="imagen">Seleccionar Imágen</label><br>
-                        <input autofocus="true" class="imagen" type="file" name="imagenProducto" accept = '.jpg' multiple>
+                        <input autofocus="true" class="imagen" type="file" name="imagenProducto" id='file'>
                     </div>
                     <div>
                         <button  class="btn btn-primary btn-lg" type="submit">CREAR</button>

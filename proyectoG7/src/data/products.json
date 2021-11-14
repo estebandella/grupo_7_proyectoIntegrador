@@ -1,82 +1,116 @@
 [
-
-    {
-        "id": 1,
-        "nombre": "Parti Azor", 
-        "precio": "$27.999",
-        "descuento": 20,
-        "cuotas": "12 cuotas de $2.333,25",
-        "descripcion": "Bolso de charol con estampa" ,
-        "medidas": "Alto 38cm. Ancho 32cm. Profundidad 10cm.",
-        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
-        "color": ["azul", "amarillo"],
-        "categoria": "Ciudad",
-        "imagen": "PARTY-T-NG-OR.jpg"
-    },
-    {
-        "id": 2,
-        "nombre": "Bolso Chuli",
-        "precio": "$25.999",
-        "descuento": 20,
-        "cuotas": "12 cuotas de $2.166,58",
-        "descripcion": "Bolso urbana, con charol" ,
-        "medidas": "Alto 35cm. Ancho 25cm. Profundidad 10cm.",
-        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
-        "color": ["gris", "rojo", "naranja", "violeta", "negro", "verde"],
-        "categoria": "Oficina",
-        "imagen": "CHULI-Bol--M-MB.jpg"
-    },
-    {
-        "id": 3,
-        "nombre": "Cartera GIRL-C-7C",
-        "precio": "$26.999",
-        "descuento": 20,
-        "cuotas": "12 cuotas de $2.249",
-        "descripcion": "Cartera de cuero napon" ,
-        "medidas": "Alto 48cm. Ancho 32cm. Profundidad 20cm.",
-        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
-        "color": ["gris", "rojo"],
-        "categoria": "Oficina",
-        "imagen": "GIRL-C-7C-NI.jpg"
-    },
-    {
-        "id": 4,
-        "nombre": "Cartera GIRL-T-NG-OR",
-        "precio": "$41.999",
-        "descuento": 20,
-        "cuotas": "12 cuotas de $3.499",
-        "descripcion": "Bolso cartera de cuero con estampa" ,
-        "medidas": "Alto 48cm. Ancho 32cm. Profundidad 20cm.",
-        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
-        "categoria": "Oficina",
-        "color": ["violeta", "amarillo", "negro"],
-        "imagen": "GIRL-T-NG-OR.jpg"
-    },
-    {
-        "id": 5,
-        "nombre": "Cartera HKCHAR-UVNI",
-        "precio": "$45.999",
-        "descuento": 20,
-        "cuotas": "12 cuotas de $3.833",
-        "descripcion": "Bolso de gamuzon con estampa" ,
-        "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
-        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
-        "color": ["violeta", "amarillo", "negro"],
-        "categoria": "Oficina",
-        "imagen": "HKCHAR-UVNI.jpg"
-    },
-    {
-        "id": 6,
-        "nombre": "Bolso HTPARTY-AZOR",
-        "precio": "$45.999",
-        "descuento": 20,
-        "cuotas": "12 cuotas de $3.833",
-        "descripcion": "Bolso de gamuzon con estampa" ,
-        "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
-        "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
-        "color": ["violeta", "amarillo", "negro"],
-        "categoria": "Oficina",
-        "imagen": "HTPARTY-AZOR.jpg"
-    }
-    
+ {
+  "id": 1,
+  "nombre": "Parti Azor",
+  "precio": "$27.999",
+  "descuento": 20,
+  "cuotas": "12 cuotas de $2.333,25",
+  "descripcion": "Bolso de charol con estampa",
+  "medidas": "Alto 38cm. Ancho 32cm. Profundidad 10cm.",
+  "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+  "color": [
+   "azul",
+   "amarillo"
+  ],
+  "categoria": "Cartera",
+  "imagen": "PARTY-T-NG-OR.jpg"
+ },
+ {
+  "id": 2,
+  "nombre": "Bolso Chuli",
+  "precio": "$25.999",
+  "descuento": 20,
+  "cuotas": "12 cuotas de $2.166,58",
+  "descripcion": "Bolso urbana, con charol",
+  "medidas": "Alto 35cm. Ancho 25cm. Profundidad 10cm.",
+  "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+  "color": [
+   "gris",
+   "rojo",
+   "naranja",
+   "violeta",
+   "negro",
+   "verde"
+  ],
+  "categoria": "Cartera",
+  "imagen": "CHULI-Bol--M-MB.jpg"
+ },
+ {
+  "id": 3,
+  "nombre": "Cartera GIRL-C-7C",
+  "precio": "$26.999",
+  "descuento": 20,
+  "cuotas": "12 cuotas de $2.249",
+  "descripcion": "Cartera de cuero napon",
+  "medidas": "Alto 48cm. Ancho 32cm. Profundidad 20cm.",
+  "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+  "color": [
+   "gris",
+   "rojo"
+  ],
+  "categoria": "Cartera",
+  "imagen": "GIRL-C-7C-NI.jpg"
+ },
+ {
+  "id": 4,
+  "nombre": "Cartera GIRL-T-NG-OR",
+  "precio": "$41.999",
+  "descuento": 20,
+  "cuotas": "12 cuotas de $3.499",
+  "descripcion": "Bolso cartera de cuero con estampa",
+  "medidas": "Alto 48cm. Ancho 32cm. Profundidad 20cm.",
+  "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+  "categoria": "Cartera",
+  "color": [
+   "violeta",
+   "amarillo",
+   "negro"
+  ],
+  "imagen": "GIRL-T-NG-OR.jpg"
+ },
+ {
+  "id": 5,
+  "nombre": "Cartera HKCHAR-UVNI",
+  "precio": "$45.999",
+  "descuento": 20,
+  "cuotas": "12 cuotas de $3.833",
+  "descripcion": "Bolso de gamuzon con estampa",
+  "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
+  "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+  "color": [
+   "violeta",
+   "amarillo",
+   "negro"
+  ],
+  "categoria": "Cartera",
+  "imagen": "HKCHAR-UVNI.jpg"
+ },
+ {
+  "id": 6,
+  "nombre": "Bolso HTPARTY-AZOR",
+  "precio": "$45.999",
+  "descuento": 20,
+  "cuotas": "12 cuotas de $3.833",
+  "descripcion": "Bolso de gamuzon con estampa",
+  "medidas": "Alto 38cm. Ancho 32cm. Profundidad 2cm.",
+  "cuidados": "No mojar. No lavar. Evitar fuertes roces ya que se puede desgastar el material y el color",
+  "color": [
+   "violeta",
+   "amarillo",
+   "negro"
+  ],
+  "categoria": "Cartera",
+  "imagen": "HTPARTY-AZOR.jpg"
+ },
+ {
+  "nombre": "SMILZINIA NATHA",
+  "precio": "2222",
+  "cuotas": "5",
+  "descripcion": "hola ",
+  "medidas": "45 ",
+  "cuidados": "no mojar",
+  "categoria": "Carteras",
+  "id": 7,
+  "imagen": " "
+ }
 ]
