@@ -12,7 +12,7 @@ const productsController = require('../controllers/products.js');
 //configuracion de multer
 const storage =  multer.diskStorage({
     destination : (req, file, cb) => {
-    cb(null, path.join(__dirname, '../public/img/products'))
+    cb(null, path.join(__dirname, '../../public/img/products'))
     },
     filename : (req, file, cb) => {
         const newFileName = file.filename + 'product-' + Date.now() + path.extname(file.originalname);

@@ -101,16 +101,5 @@
   ],
   "categoria": "Cartera",
   "imagen": "HTPARTY-AZOR.jpg"
- },
- {
-  "nombre": "SMILZINIA NATHA",
-  "precio": "2222",
-  "cuotas": "5",
-  "descripcion": "hola ",
-  "medidas": "45 ",
-  "cuidados": "no mojar",
-  "categoria": "Carteras",
-  "id": 7,
-  "imagen": " "
  }
 ]
