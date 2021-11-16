@@ -4,6 +4,7 @@ const app = express();
 
 const path = require('path');
 
+
 const fs = require('fs');
 const productsFilePath = path.join(__dirname, '../data/products.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
@@ -36,12 +37,16 @@ const productsController = {
 	
 	// Create -  Method to store
 	store: (req, res) => {	
-		const nuevoProducto= req.body;
-		nuevoProducto.id = products[products.length - 1].id + 1;
-		nuevoProducto.imagen = req.file ? req.file.filename : ' ';
-		products.push(nuevoProducto);
+		const nuevoProducto= {
+			id: products[products.length - 1].id + 1,
+			...req.body,
+			imagen: req.file.filename 
 
-		fs.writeFileSync(productsFilePath,JSON.stringify(products, null,' '));
+		};
+
+		const nuevoProductoLista = [...products, nuevoProducto];
+	
+		fs.writeFileSync(productsFilePath,JSON.stringify(nuevoProductoLista, null,' '));
 
 		res.redirect('/');
 		//res.send("producto creado")
