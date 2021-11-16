@@ -37,9 +37,8 @@
 
                                     <option value=""><%= productToEdit.categoria%></option>
                                     <option value="in-sale">oficina</option>
-                                    <option value="visited" >Fiesta</option>
-
-                                  
+                                    <option value="visited">Fiesta</option>
+                 
                                 </select>
                             </div>
                         </section>
@@ -48,25 +47,13 @@
                         <div>
                             <label for="email">Colores</label><br>
                         </div>
-                        <div class="color-form-group">
-                            <div class="color-box">
-                            <label><input type="checkbox" id="colores" value="rojo"> Rojo </label><br>
-                            <label><input type="checkbox" id="colores" value="verde"> Verde </label><br>
-                            <label><input type="checkbox" id="colores" value="azul"> Azul </label><br>
+                            <div class="color-form-group">
+                                <div class="color-box">
+                                    <% for(var i = 0; i < colours.length; i++) {%>
+                                        <label><input name="color" type="checkbox" id="colores" value="<%= colours[i].code %>" <% if(productToEdit.color.includes(colours[i].code)){ %> <%= "checked" %> <% } %> > <%= colours[i].name %> </label><br>
+                                    <% } %>
                             </div>
-                            <div class="color-box">
-                            <label><input type="checkbox" id="colores" value="amarillo"> Amarillo </label><br>
-                            <label><input type="checkbox" id="colores" value="marron"> Marron </label><br>
-                            <label><input type="checkbox" id="colores" value="purpura"> Purpura </label><br>
-                            </div>
-                            <div class="color-box">
-                            <label><input type="checkbox" id="colores" value="gris claro"> Gris claro </label><br>
-                            <label><input type="checkbox" id="colores" value="gris oscuro"> Gris oscuro </label><br>
-                            <label><input type="checkbox" id="colores" value="negro"> Negro </label><br>
-                            <label><input type="checkbox" id="colores" value="blanco"> Blanco </label><br>
                         </div>
-                        </div>
-
                         <!-- Precio ( price ) -->
                         <div class="login-form-group">
                             <label for="email">Precio</label><br>

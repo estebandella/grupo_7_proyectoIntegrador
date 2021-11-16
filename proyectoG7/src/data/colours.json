@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Azul",
+        "code": "azul"
+    },
+    {
+        "name": "Rojo",
+        "code": "rojo"
+    },
+    {
+        "name": "Amarillo",
+        "code": "amarillo"
+    },
+    {
+        "name": "Marron",
+        "code": "marron"
+    },
+    {
+        "name": "Negro",
+        "code": "negro"
+    },
+    {
+        "name": "Gris",
+        "code": "gris"
+    },
+    {
+        "name": "Rojo",
+        "code": "rojo"
+    },
+    {
+        "name": "Naranja",
+        "code": "naranja"
+    },
+    {
+        "name": "Violeta",
+        "code": "violeta"
+    },
+    {
+        "name": "Verde",
+        "code": "verde"
+    }
+]
