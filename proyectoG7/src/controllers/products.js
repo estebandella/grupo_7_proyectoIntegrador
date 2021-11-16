@@ -69,7 +69,22 @@ const productsController = {
 	// Delete - Delete one product from DB
 	destroy : (req, res) => {
 		// Do the magic
-		res.send("producto eliminado, id: " + req.params.id)
+		
+		// Buscar la posición actual del producto a eliminar
+		const productIndice = products.findIndex((producto) => {
+			return (producto.id = req.params.id)
+		}); 
+
+		// Mediante el método Splice Recortar el array sin ese producto
+		products.splice(productIndice, 1);
+
+		//Escribimos en el JSON
+		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
+
+		//Volvemos a la página de productos
+		res.redirect('/');
+		
+		//res.send("producto eliminado, id: " + req.params.id, index)
 	},
 
     shoppingCart : (req, res) => {
