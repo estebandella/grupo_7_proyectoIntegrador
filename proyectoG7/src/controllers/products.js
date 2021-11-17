@@ -33,7 +33,7 @@ const productsController = {
 	// Create - Form to create
 	create: (req, res) => {
 		// Do the magic
-        res.render("product-create-form")
+        res.render("product-create-form", {colours})
 	},
 	
 	// Create -  Method to store

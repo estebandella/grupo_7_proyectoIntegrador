@@ -51,16 +51,9 @@
                     <div class="register-label">
                         <label for="colores">Colores</label><br>
                         <div class="style-box">
-                        <label><input class="register-style" type="checkbox" id="colores" value="rojo"> Rojo </label><br>
-                        <label><input class="register-style" type="checkbox" id="colores" value="verde"> Verde </label><br>
-                        <label><input class="register-style" type="checkbox" id="colores" value="azul"> Azul </label><br>
-                        <label><input class="register-style" type="checkbox" id="colores" value="amarillo"> Amarillo </label><br>
-                        <label><input class="register-style" type="checkbox" id="colores" value="marron"> Marron </label><br>
-                        <label><input class="register-style" type="checkbox" id="colores" value="purpura"> Purpura </label><br>
-                        <label><input class="register-style" type="checkbox" id="colores" value="gris claro"> Gris claro </label><br>
-                        <label><input class="register-style" type="checkbox" id="colores" value="gris oscuro"> Gris oscuro </label><br>
-                        <label><input class="register-style" type="checkbox" id="colores" value="negro"> Negro </label><br>
-                        <label><input class="register-style" type="checkbox" id="colores" value="blanco"> Blanco </label><br>
+                            <% for(var i = 0; i < colours.length; i++) {%>
+                                <label><input class="register-style" name="color" type="checkbox" id="colores" value="<%= colours[i].code %>" > <%= colours[i].name %> </label><br>
+                            <% } %>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">

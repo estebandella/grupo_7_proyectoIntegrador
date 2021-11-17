@@ -38,5 +38,9 @@
     {
         "name": "Verde",
         "code": "verde"
+    },
+    {
+        "name": "Purpura",
+        "code": "purpura"
     }
 ]
