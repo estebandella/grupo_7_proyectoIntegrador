@@ -82,13 +82,13 @@ const productsController = {
 	},
 
 	// Delete - Delete one product from DB
-	destroy : (req, res) => {
+	destroy: (req, res) => {
 		// Do the magic
 		
 		// Buscar la posición actual del producto a eliminar
 		const productIndice = products.findIndex((producto) => {
-			return (producto.id = req.params.id)
-		}); 
+			return (producto.id == req.params.id)
+		});
 
 		// Mediante el método Splice Recortar el array sin ese producto
 		products.splice(productIndice, 1);
@@ -105,7 +105,6 @@ const productsController = {
     shoppingCart : (req, res) => {
 		// Do the magic
 		res.render("shoppingCart")
-
 	}
 
 };
