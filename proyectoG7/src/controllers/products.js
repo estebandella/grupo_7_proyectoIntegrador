@@ -40,7 +40,7 @@ const productsController = {
 		const nuevoProducto= {
 			id: products[products.length - 1].id + 1,
 			...req.body,
-			imagen: req.file.filename 
+			imagen: req.file ? req.file.filename :' '
 
 		};
 
@@ -62,6 +62,21 @@ const productsController = {
 	// Update - Method to update
 	update: (req, res) => {
 		// Do the magic
+
+		//const productIndex = products.findIndex(prodI => prodI.id == req.params.id);
+
+		//const updatedProduct= {
+			//products[products.length - 1],
+			//...req.body,
+			//imagen: req.file ? req.file.filename :' '
+
+		//};
+
+
+
+
+
+
 		res.send("producto editado!!!")
 	},
 
