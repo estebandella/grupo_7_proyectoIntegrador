@@ -9,6 +9,9 @@ const fs = require('fs');
 const productsFilePath = path.join(__dirname, '../data/products.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
+const coloursFilePath = path.join(__dirname, '../data/colours.json');
+const colours = JSON.parse(fs.readFileSync(coloursFilePath, 'utf-8'));
+
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 // objeto literal con las acciones para cada ruta
@@ -18,13 +21,11 @@ const productsController = {
     // Root - Show all products
 	index: (req, res) => {
 
-
-
 		res.render("products", {products: products})
 	},
 
 	// Detail - Detail from one product
-	detail: (req, res) => {
+	detail: (req, res) => { 
 		const product = products.find(prod => prod.id == req.params.id);
 		res.render("detail", {product})
 	},
@@ -56,7 +57,7 @@ const productsController = {
 	edit: (req, res) => {
 		// Do the magic
 		const productToEdit = products.find(prod => prod.id == req.params.id);
-		res.render("product-edit-form", {productToEdit})
+		res.render("product-edit-form", {productToEdit, colours})
 	},
 
 	// Update - Method to update
@@ -83,7 +84,22 @@ const productsController = {
 	// Delete - Delete one product from DB
 	destroy : (req, res) => {
 		// Do the magic
-		res.send("producto eliminado, id: " + req.params.id)
+		
+		// Buscar la posición actual del producto a eliminar
+		const productIndice = products.findIndex((producto) => {
+			return (producto.id = req.params.id)
+		}); 
+
+		// Mediante el método Splice Recortar el array sin ese producto
+		products.splice(productIndice, 1);
+
+		//Escribimos en el JSON
+		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
+
+		//Volvemos a la página de productos
+		res.redirect('/');
+		
+		//res.send("producto eliminado, id: " + req.params.id, index)
 	},
 
     shoppingCart : (req, res) => {

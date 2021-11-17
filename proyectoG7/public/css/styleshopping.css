@@ -157,20 +157,21 @@ footer {
 .main-producto {
     display: flex;
     justify-content: space-between;
-    padding: 50px 150px;
+    padding: 50px 20px;
     background-color: hsl(0, 73%, 97%);
+    width: 100%;
 }
 
 .items{
 
     display: flex;
     justify-content: space-between;
-    width: 700px;
+    width: 90%;
 }
 
 .detalle {
 
-    width: 800px;
+    width: 85%;
     padding: 20px 0px 30px 0px;
     border: solid 1px rgb(241, 241, 241);
     border-radius: 20px;
@@ -180,7 +181,7 @@ footer {
 }
 
 .resumen {
-    width: 300px;
+    width: 20%;
     padding: 20px 0px 30px 0px;
     border: solid 1px rgb(241, 241, 241);
     border-radius: 20px;
@@ -190,7 +191,7 @@ footer {
 }
 
 .lineaFooter {
-    margin: 10px 10px;
+    margin: 10px 10px 100px;
 }
 
 
@@ -262,6 +263,35 @@ p {
     margin: 0px 20px;
     height: 100%;
 }
+
+@media (min-width:320px) and (max-width: 600px) {
+    .header-menu-busca-carrito {
+        display: none;
+    }
+    .header-completo {
+        width: 100%;
+    }
+    .main-producto {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .resumen {
+        width: 83%;
+        margin-left: 25px;
+    }
+    .detalle {
+        width: 105%;
+    }
+    body {
+        width: 100%;
+    }
+    .opcionesCompra {
+        font-size: 9px;
+    }
+}
+
+
 /* fromatos recomendados por playgraund
 576
 768

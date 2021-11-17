@@ -61,7 +61,6 @@ body {
     color: #666;
 }
 
-
 .header-busca-carrito {
     display: flex;
     align-items: center;
@@ -71,6 +70,7 @@ body {
     padding: 0px 10px;
     color: #666
 }
+
 
 .header-titulo {
     display: block;
@@ -370,11 +370,11 @@ footer {
     };
 
 /* CELULARES */
-@media (min-width:361px) {
+/*@media (min-width:361px) {
     /* .header-barraSupFija {
         display: none;
     }; */
-    .header-barraSupFija {
+    /*.header-barraSupFija {
         /* padding: 10px;
         width: 100%;
         height: 40px; */
@@ -387,9 +387,7 @@ footer {
         /* font-size: 8px; */
         /* text-align: center; */
         /* display: none; */
-    }
-
-}
+ 
 
 /* TABLET */
 @media (min-width:768px) {

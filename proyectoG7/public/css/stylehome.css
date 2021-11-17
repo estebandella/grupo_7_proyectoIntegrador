@@ -52,8 +52,7 @@ body {
 .header-menu-busca-carrito a img {
     margin: 0px 0px 0px 130px;
     height: 37px;
-    width: 120px;
-    
+    width: 120px;    
 }
 
 .marca {
@@ -386,30 +385,3 @@ footer {
     margin: 0px 20px;
     height: 100%;
 }
-
-/*  PAGINA EDICION DE PRODUCTO ******************************************************* */
-
-/* CELULARES */
-@media (min-width:361px) {
-
-
-
-}
-
-/* TABLET */
-@media (min-width:768px) {
-
-
-
-
-}
-
-/* NOTEBOOK */
-@media (min-width:1280px) {
-
-
-
-
-    
-}
-
