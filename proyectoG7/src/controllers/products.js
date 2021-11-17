@@ -63,22 +63,20 @@ const productsController = {
 	// Update - Method to update
 	update: (req, res) => {
 		// Do the magic
+		const productIndex = products.findIndex(prodI => prodI.id == req.params.id);
+		
+		const updatedProduct = {
+			id: req.params.id,
+			...req.body,
+			imagen: req.body.imagen || products[productIndex].imagen
+		};
 
-		//const productIndex = products.findIndex(prodI => prodI.id == req.params.id);
+		products[productIndex] = updatedProduct;
 
-		//const updatedProduct= {
-			//products[products.length - 1],
-			//...req.body,
-			//imagen: req.file ? req.file.filename :' '
+		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
 
-		//};
-
-
-
-
-
-
-		res.send("producto editado!!!")
+		res.redirect('/');
+		//res.send("producto editado!!!")
 	},
 
 	// Delete - Delete one product from DB
