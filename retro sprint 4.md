@@ -12,6 +12,7 @@ https://docs.google.com/presentation/d/1zrk9PIcjxDw4x1SQRy8lC5vXnV2JTMR7p6mjDJaB
 * Trabajo más equitativo.
 * Pensar en equipo.
 * Congeniar un momento en la semana para ponernos al día.
+* Trabajar en equipo todos los integrantes del grupo.
 
 #### Hacer más:
 * Tener un feedback grupal antes de las entregas.
