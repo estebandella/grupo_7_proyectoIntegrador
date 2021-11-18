@@ -10,7 +10,7 @@
             <div class="login-content">
                 <div class="login-panel">
                     <h2 class="h3">Edita el producto seleccionado</h2>
-                    <form action="/products/<%= productToEdit.id%>?_method=PUT" method="POST">
+                    <form action="/products/<%= productToEdit.id%>?_method=PUT" method="POST" enctype="multipart/form-data">
 
                         <!-- Nombre del producto ( name ) -->
                         <div class="login-form-group">
@@ -27,7 +27,7 @@
                         <!-- Imagen ( image ) -->
                         <div class="register-label">
                             <label for="imagen">Seleccionar Imágen</label><br>
-                            <input autofocus="true" class="imagen" type="file" name="imagen" id='file' accept='.jpg' multiple>
+                            <input autofocus="true" class="imagen" type="file" name="imagenProducto" id = 'file' accept = '.jpg' multiple>
                         </div>
                         
                         <!-- Categorias -->
