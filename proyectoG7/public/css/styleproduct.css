@@ -195,7 +195,44 @@ form .btn {
 } 
 
 
-/* FOOTER *************************  */
+/* FOOTER (INCLUYE OPCIONES DE COMPRA, REDES SOCIALES Y TODOS LOS DERECHOS RESERVADOS)*************************  */
+
+.opcionesCompra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ebebeb;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.footer-pie {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-pie i {
+    color: #03264C;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+
+.footer-pie p {
+    width: 100px;
+    text-align: center;
+}
+
+.opcionesBarra {
+    background-color: #666;;
+    padding: 20px 1px;
+    margin: 0px 20px;
+    height: 100%;
+}
+
+
+
+
 
 .lineaFooter {
     background-color: #ebebeb;
@@ -220,6 +257,7 @@ footer {
     height: 50px;
     text-align: center;
 }
+
 
 
 /* REGISTER *************************  */
