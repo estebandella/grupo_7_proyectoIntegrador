@@ -3,7 +3,7 @@
 
 ## Restrospectiva, Metodo Estrella:
 
-https://docs.google.com/presentation/d/1zrk9PIcjxDw4x1SQRy8lC5vXnV2JTMR7p6mjDJaB7zc/edit?usp=sharing
+https://docs.google.com/presentation/d/1zrk9PIcjxDw4x1SQRy8lC5vXnV2JTMR7p6mjDJaB7zc/edit#slide=id.p
 
 
 ### Conclusiones:
