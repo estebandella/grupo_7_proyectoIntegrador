@@ -12,6 +12,9 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const coloursFilePath = path.join(__dirname, '../data/colours.json');
 const colours = JSON.parse(fs.readFileSync(coloursFilePath, 'utf-8'));
 
+let imgFilePath = path.join(__dirname, '../');
+imgFilePath = path.join(imgFilePath, '../public/img/products/');
+
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 // objeto literal con las acciones para cada ruta
@@ -64,12 +67,17 @@ const productsController = {
 	update: (req, res) => {
 		// Do the magic
 		const productIndex = products.findIndex(prodI => prodI.id == req.params.id);
-		
+
 		const updatedProduct = {
 			id: req.params.id,
 			...req.body,
-			imagen: req.body.imagen || products[productIndex].imagen
+			imagen: (req.file ? req.file.filename :' ')
 		};
+		
+		//se chequea si existe una imagen antes de intentar eliminarla
+		if (products[productIndex].imagen != " "){
+			fs.rmSync(imgFilePath + products[productIndex].imagen);
+		}
 
 		products[productIndex] = updatedProduct;
 
