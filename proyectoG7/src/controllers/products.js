@@ -66,19 +66,14 @@ const productsController = {
 	// Update - Method to update
 	update: (req, res) => {
 		// Do the magic
-		const productIndex = products.findIndex(prodI => prodI.id == req.params.id);
+		const productIndex = products.findIndex((prodI) => prodI.id == req.params.id);
 
 		const updatedProduct = {
-			id: req.params.id,
+			...products[productIndex],
 			...req.body,
-			imagen: (req.file ? req.file.filename :' ')
+			imagen: (req.file ? req.file.filename : products[productIndex].imagen) 
 		};
 		
-		//se chequea si existe una imagen antes de intentar eliminarla
-		if (products[productIndex].imagen != " "){
-			fs.rmSync(imgFilePath + products[productIndex].imagen);
-		}
-
 		products[productIndex] = updatedProduct;
 
 		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
